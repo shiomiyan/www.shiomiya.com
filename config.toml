@@ -38,11 +38,11 @@ googleAnalyticsId = ""
 googleTagManagerId = "GTM-PMWWR5D"
 googleAdsId = ""
 googleAdsenseId = "ca-pub-7067582591422237"
-googleAdsenseAdSlotId = ""
+googleAdsenseAdSlotId = "6356042672"
 googleAdsenseLoad = ""
 googleAdsConversionId = ""
 googleAdsConversionValue = 0
-facebookApp = ""
+# facebookApp = ""
 facebookPixel = ""
 disqusShortname = ""
 
