@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9fcc435-a82a-4179-ae93-f0dc887db2dd/deploy-status)](https://app.netlify.com/sites/thirsty-swanson-734122/deploys)
