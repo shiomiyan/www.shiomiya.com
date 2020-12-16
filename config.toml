@@ -29,9 +29,9 @@ email = "dev.umisk@gmail.com"
 
 [params.social]
 # github = "https://github.com/shiomiyan"
-twitter = "https://twitter.com/axiomtheme"
+# twitter = "https://twitter.com/uminchu_sk"
 # youtube = "https://www.youtube.com/user"
-footer = ["twitter"]
+# footer = ["twitter"]
 
 [params.services]
 googleAnalyticsId = ""
@@ -121,9 +121,9 @@ name = "Posts"
 weight = 1
 
 [[menu.foot]]
-url = "/posts/"
-name = "Posts"
-weight = 1
+# url = "/posts/"
+# name = "Posts"
+# weight = 1
 
 [[menu.foot]]
 url = "/about/"
@@ -131,11 +131,11 @@ name = "About"
 weight = 2
 
 [[menu.foot]]
-url = "/contact/"
-name = "Contact"
-weight = 3
+# url = "/contact/"
+# name = "Contact"
+# weight = 3
 
 [[menu.foot]]
-url = "/privacy/"
-name = "Privacy"
-weight = 4
+# url = "/privacy/"
+# name = "Privacy"
+# weight = 4

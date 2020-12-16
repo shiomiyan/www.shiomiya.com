@@ -1,0 +1,13 @@
+[dafault]
+name = "shiomiya"
+uri = ""
+email = ""
+twitter = ""
+# image = "image/author/default.webp"
+
+[shiomiya]
+name = "shiomiya"
+uri = ""
+email = ""
+twitter = ""
+image = "image/author/avatar.png"
