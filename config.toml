@@ -1,4 +1,4 @@
-baseURL = "www.shiomiya.work"
+baseURL = "https://www.shiomiya.work"
 languageCode = "en-us"
 title = "www.shiomiya.work"
 theme = "paper"
