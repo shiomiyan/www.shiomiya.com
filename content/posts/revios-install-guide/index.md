@@ -3,7 +3,8 @@
 date = "2020-12-06 20:49:59 +0000 UTC"
 draft = false
 title = "超軽量版 Windows10 こと ReviOS インストールガイド"
-tags = ["tweak","memo","game"]
+tags = ["revios","windows10"]
+categories = ["tweak"]
 
 +++
 海外の OS Tweaking Community (?) でぼちぼち話題っぽい RevisionOS (ReviOS) を使ってみたので導入手順とレビューをかんたんに書きます。
