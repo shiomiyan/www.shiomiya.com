@@ -6,6 +6,10 @@ draft: false
 
 # Hello world
 
-サンプルテキスト
+```rust
+fn main() {
+    println!("はてなブログからHugoへ移行した。");
+}
+```
 
-牛乳・卵・しいたけ・エリンギ
+はてなブログからHugoへ移行した。
