@@ -5,7 +5,7 @@ theme = "axiom"
 
 # Axiom theme config below
 
-paginate = 2
+paginate = 5
 canonifyURLs = false
 summaryLength = 40
 rssLimit = 100
