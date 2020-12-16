@@ -2,6 +2,7 @@
 title: "My First Post"
 date: 2020-12-16T10:13:46+09:00
 draft: false
+author: shiomiya
 ---
 
 # Hello world
@@ -13,3 +14,5 @@ fn main() {
 ```
 
 はてなブログからHugoへ移行した。
+
+![](image1.jpg)
