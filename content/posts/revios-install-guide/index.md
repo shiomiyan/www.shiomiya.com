@@ -2,7 +2,7 @@
 +++
 date = "2020-12-06 20:49:59 +0000 UTC"
 draft = false
-title = "超軽量版 Windows10 こと ReviOS のすゝめ "
+title = "Windows10 カスタム ISO ReviOS インストールガイド"
 tags = ["tweak","memo","game"]
 
 +++
