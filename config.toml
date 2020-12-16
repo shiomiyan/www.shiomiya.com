@@ -44,7 +44,7 @@ googleAdsConversionId = ""
 googleAdsConversionValue = 0
 # facebookApp = ""
 facebookPixel = ""
-disqusShortname = ""
+disqusShortname = "shiomiyan"
 
 [params.image]
 width = "2048"
