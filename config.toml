@@ -34,8 +34,8 @@ email = "dev.umisk@gmail.com"
 # footer = ["twitter"]
 
 [params.services]
-googleAnalyticsId = ""
-googleTagManagerId = "GTM-PMWWR5D"
+googleAnalyticsId = "UA-139120340-2"
+googleTagManagerId = ""
 googleAdsId = ""
 googleAdsenseId = "ca-pub-7067582591422237"
 googleAdsenseAdSlotId = "6356042672"
