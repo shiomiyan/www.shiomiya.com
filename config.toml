@@ -2,6 +2,7 @@ baseURL = "https://www.shiomiya.work"
 languageCode = "ja-jp"
 title = "www.shiomiya.work"
 theme = "axiom"
+# theme = "angels-ladder"
 
 # Axiom theme config below
 

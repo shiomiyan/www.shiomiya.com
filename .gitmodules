@@ -4,3 +4,6 @@
 [submodule "themes/axiom"]
 	path = themes/axiom
 	url = https://github.com/marketempower/axiom.git
+[submodule "themes/angels-ladder"]
+	path = themes/angels-ladder
+	url = https://github.com/tanksuzuki/angels-ladder.git
