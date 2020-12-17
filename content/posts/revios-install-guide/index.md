@@ -1,12 +1,13 @@
-
 +++
 date = "2020-12-06 20:49:59 +0000 UTC"
 draft = false
 title = "超軽量版 Windows10 こと ReviOS インストールガイド"
+author = "shiomiya"
 tags = ["revios","windows10"]
 categories = ["tweak"]
-
+toc = true
 +++
+
 海外の OS Tweaking Community (?) でぼちぼち話題っぽい RevisionOS (ReviOS) を使ってみたので導入手順とレビューをかんたんに書きます。
 
 おそらく主にゲーマー向けで、Windows10 の不要な機能やプロセスを削ぎ落としているので、低遅延かつ高フレームレートが期待できます。

@@ -1,10 +1,9 @@
-
 +++
 date = "2020-02-26 07:07:07 +0000 UTC"
 draft = false
 title = "S2 DIVINA のコーティング削り"
-tags = ["gadget"]
-
+categories = ["device"]
+tags = ["mouse"]
 +++
 
 ![](20200226065718.jpg)

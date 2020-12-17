@@ -1,10 +1,9 @@
-
 +++
 date = "2020-02-01 14:30:04 +0000 UTC"
 draft = false
 title = "Steamアカウントをワンクリックで切り替える"
-tags = ["game","tool"]
-
+categories = ["tool"]
+tags = ["steam","memo"]
 +++
 
 ## 導入

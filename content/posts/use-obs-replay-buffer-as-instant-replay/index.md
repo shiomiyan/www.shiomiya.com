@@ -3,9 +3,10 @@
 date = "2020-11-26 17:47:28 +0000 UTC"
 draft = false
 title = "OBS Replay Buffer を instant replay のように使う"
-tags = ["tweak","tool"]
-
+categories = ["tool"]
+tags = ["obs","Instant replay"]
 +++
+
 OBS Replay Buffer を Geforce Experience の instant replay のように使う方法。
 
 (Windows10, i7 4790, GTX980Ti)

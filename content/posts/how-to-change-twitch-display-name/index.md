@@ -1,10 +1,9 @@
-
 +++
 date = "2020-03-30 09:31:22 +0000 UTC"
 draft = false
 title = "一度設定してしまったTwitchの表示名を消す方法"
+categories = ["random"]
 tags = ["twitch"]
-
 +++
 
 Twitch のユーザー名・表示名の変更はプロフィール設定から行える。

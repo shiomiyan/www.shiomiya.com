@@ -3,7 +3,8 @@
 date = "2020-12-01 14:02:55 +0000 UTC"
 draft = false
 title = "フリー動画編集ソフト avidemux のすゝめ"
-tags = ["tool"]
+categories = ["tool"]
+tags = ["avidemux"]
 
 +++
 Davinci Resolve とか Aviutl とか、フリーでも高機能な動画編集ソフトはあるけど、メインの動画投稿先が Twitter の人にとってはそんなすごいのはいらない感がある。 (くだらん動画のためにいちいちプロジェクト作成するとか面倒臭すぎる)

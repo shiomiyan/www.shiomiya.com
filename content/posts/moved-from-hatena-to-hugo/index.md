@@ -3,6 +3,8 @@ title: "ブログの構成をはてなブログからHugo+Netlifyへ変更した
 date: 2020-12-16T10:13:46+09:00
 draft: false
 author: shiomiya
+categories: ["random"]
+tags: ["memo"]
 ---
 
 現在絶賛記事移行中。
