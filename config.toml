@@ -1,4 +1,4 @@
-baseURL = "https://shiomiya.work"
+baseURL = "https://www.shiomiya.work"
 languageCode = "ja-jp"
 title = "umilog"
 theme = "axiom"
@@ -144,3 +144,9 @@ weight = 2
 # url = "/privacy/"
 # name = "Privacy"
 # weight = 4
+
+[[redirects]]
+from = "https://shiomiya.work/*"
+to = "https://www.shiomiya.com/:splat"
+status = 301
+force = true
