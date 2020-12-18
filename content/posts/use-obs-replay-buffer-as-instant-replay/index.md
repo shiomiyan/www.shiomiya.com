@@ -3,7 +3,7 @@
 date = "2020-11-26 17:47:28 +0000 UTC"
 draft = false
 title = "OBS Replay Buffer を instant replay のように使う"
-categories = ["tool"]
+categories = ["software"]
 tags = ["obs","Instant replay"]
 +++
 

@@ -3,7 +3,7 @@
 date = "2020-12-01 14:02:55 +0000 UTC"
 draft = false
 title = "フリー動画編集ソフト avidemux のすゝめ"
-categories = ["tool"]
+categories = ["software"]
 tags = ["avidemux"]
 
 +++

@@ -50,7 +50,7 @@ toc = true
 
 一応 Youtube にインストールガイドがあるので見ながらやれば簡単。本記事もほとんど動画をなぞるだけです。
 
-<s><a href="https://youtu.be/eNEIqFy2ftM/">https://youtu.be/eNEIqFy2ftM/</a><cite class="hatena-citation"><a href="https://youtu.be/eNEIqFy2ftM/">youtu.be</a></cite></s> 非公開になってました。
+{{< youtube eNEIqFy2ftM >}}
 
 ### ISO ダウンロード
 

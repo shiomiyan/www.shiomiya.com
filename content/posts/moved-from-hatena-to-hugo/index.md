@@ -27,7 +27,7 @@ Github pagesでもActionsを使って同じようなことはできるけど、�
 
 移行について調べていたらスクリプトを書いている人を見つけて、せっかくなので使わせてもらった。
 
-[stormcat24/hateblo2hugo](https://github.com/stormcat24/hateblo2hugo)
+{{< github "stormcat24/hateblo2hugo" >}}
 
 その後、一応元記事にリダイレクトを設定して終わり。
 
