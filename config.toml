@@ -2,7 +2,6 @@ baseURL = "https://www.shiomiya.work"
 languageCode = "ja-jp"
 title = "umilog"
 theme = "axiom"
-# theme = "angels-ladder"
 
 # Axiom theme config below
 
