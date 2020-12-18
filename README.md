@@ -9,6 +9,8 @@ The article will be deployed when it is pushed to the master branch.
 3. Type `<post-name>/index.md` in textform.
 4. Writing post!
 
+or use CMS https://app.forestry.io/dashboard
+
 ## Create new post from Local
 
 1. Install Hugo command-line tool.
