@@ -10,6 +10,7 @@ rssLimit = 100
 enableEmoji = true
 enableRobotsTXT = true
 pluralizelisttitles = false
+hasCJKLanguage = true
 
 enableGitInfo = true
 
