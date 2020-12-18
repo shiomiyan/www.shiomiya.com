@@ -1,4 +1,4 @@
-baseURL = "https://www.shiomiya.work"
+baseURL = "https://www.shiomiya.com"
 languageCode = "ja-jp"
 title = "umilog"
 theme = "axiom"
@@ -24,7 +24,7 @@ dateFormat = "Jan 2, 2006 3:04PM"
 highlight = "dark"
 
 [params.brand]
-domain = "shiomiya.work"
+domain = "shiomiya.com"
 email = "dev.umisk@gmail.com"
 
 [params.social]
