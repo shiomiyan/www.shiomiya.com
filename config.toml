@@ -3,8 +3,6 @@ languageCode = "ja-jp"
 title = "umilog"
 theme = "axiom"
 
-# Axiom theme config below
-
 paginate = 5
 canonifyURLs = false
 summaryLength = 40
@@ -12,6 +10,8 @@ rssLimit = 100
 enableEmoji = true
 enableRobotsTXT = true
 pluralizelisttitles = false
+
+enableGitInfo = true
 
 [permalinks]
 posts = "/:filename"
