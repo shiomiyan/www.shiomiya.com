@@ -14,31 +14,11 @@ toc = true
 
 現在使用しているディスクへのインストールを行う場合はすべて初期化されるので、バックアップ等適宜取り導入は自己責任でお願いします。
 
-<ul class="table-of-contents">
-    <li><a href="#ReviOS-とは">ReviOS とは</a></li>
-    <li><a href="#ReviOS-導入ガイド">ReviOS 導入ガイド</a><ul>
-            <li><a href="#ISO-ダウンロード">ISO ダウンロード</a></li>
-            <li><a href="#Bootable-USB-の作成">Bootable USB の作成</a><ul>
-                    <li><a href="#パーティション構成について">パーティション構成について</a></li>
-                </ul>
-            </li>
-            <li><a href="#ディスクへの書き込み">ディスクへの書き込み</a></li>
-        </ul>
-    </li>
-    <li><a href="#インストール後にやること-やったこと">インストール後にやること (やったこと)</a><ul>
-            <li><a href="#表示言語の変更">表示言語の変更</a></li>
-            <li><a href="#日本語-IME-導入">日本語 IME 導入</a></li>
-            <li><a href="#Nvidia-GPU-ドライバのインストール">Nvidia GPU ドライバのインストール</a></li>
-            <li><a href="#Visual-C-Runtime-のインストール">Visual C++ Runtime のインストール</a></li>
-        </ul>
-    </li>
-</ul>
-
 ## ReviOS とは
 
-[Revision](https://www.revi.cc/)
+[Revision Official Website](https://www.revi.cc/)
 
->ReviOS aspires to re-create what Windows as an operating system should have been, with a particular emphasis on performance, stability and privacy.
+> ReviOS aspires to re-create what Windows as an operating system should have been, with a particular emphasis on performance, stability and privacy.
 
 とのことで、パフォーマンスやプライバシー保護に重点を置いて最適化された Windows10 ベースのカスタム OS らしい。
 
@@ -164,9 +144,9 @@ Revision Post-Install を参考にインストール。 Method1 が楽なので�
 
 再起動時やタスクマネージャーを開くとわかりますがバックグラウンドプロセスが少ないせいか起動にかかる時間とかは超爆速。
 
-ゲームのフレームレートも今の所安定しています。
+フレームレートも心做しか平均値が底上げされた気がします。というのも、この手の tweaking は 100FPS 出ていたものを急に 300FPS 出るようにすることはまあほぼない (気がする) ので、過度な期待はしないでください。
 
-最後に、更に PC を最適化したい気持ちがあれば <a href="https://sites.google.com/view/winshit/guides#h.jiz8ksycd9uz">RevisionOS モデレーターが書いた記事</a> を参考に弄ってみてもいいと思います。
+とはいえ、なんとなくいい環境でできているような気持ちになれる最高のプラシーボは得られます。
 
 反響があればもう少し丁寧に書きます。以上。
 

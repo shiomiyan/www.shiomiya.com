@@ -115,9 +115,9 @@ tabWidth = 2
 # lineNos = true
 # lineNumbersInTable = false
 [markup.tableOfContents]
-endLevel = 2
+endLevel = 3
 ordered = true
-startLevel = 2
+startLevel = 1
 
 [menu]
 [[menu.main]]
