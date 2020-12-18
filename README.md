@@ -8,3 +8,11 @@ The article will be deployed when it is pushed to the master branch.
 2. Add file > Create new file
 3. Type `<post-name>/index.md` in textform.
 4. Writing post!
+
+## Create new post from Local
+
+1. Install Hugo command-line tool.
+2. Clone this repository.
+3. `cd www.shiomiya.com`
+4. `hugo new posts/<post-name>/index.md`
+5. `vi posts/<post-name>/index.md`
