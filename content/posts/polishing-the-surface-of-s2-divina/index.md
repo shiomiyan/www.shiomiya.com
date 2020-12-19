@@ -16,13 +16,12 @@ tags = ["mouse"]
 
 ### 用意したもの
 
-<ul>
-<li><a href="https://www.amazon.co.jp/gp/product/B082X71N6H/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&amp;psc=1">サンドペーパー</a></li>
-<li>精密ドライバー</li>
-</ul>
+- [サンドペーパー](https://www.amazon.co.jp/gp/product/B082X71N6H/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&amp;psc=1)
+- 精密ドライバー
 
 
-サンドペーパーは何があっても良いようにいろんな粗さが入っているのを選んだ。結局使ったのは600番だけ。
+サンドペーパーは何があっても良いようにいろんな粗さが入っているのを選んだものの結局使ったのは600番だけ。
+
 スポンジ付きはこういう作業が苦手な人は使っても良いかも。
 
 ### 削る
@@ -30,4 +29,3 @@ tags = ["mouse"]
 600番で削ればそこそこ滑らかかつ手汗に強い感じに仕上がります。
 
 あと削りすぎ注意。
-

@@ -25,29 +25,11 @@ Davinci Resolve とか Aviutl とか、フリーでも高機能な動画編集�
 
 ![](image1.png)
 
-<table>
-<thead>
-<tr>
-<th> hoge </th>
-<th> huga </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td> Video Output </td>
-<td> Copy </td>
-</tr>
-<tr>
-<td> Audio Output </td>
-<td> Copy </td>
-</tr>
-<tr>
-<td>Output Format </td>
-<td> MP4 Muxer </td>
-</tr>
-</tbody>
-</table>
-
+|||
+|--- |--- |
+|Video Output|Copy|
+|Audio Output|Copy|
+|Output Format|MP4 Muxer|
 
 に設定して、 Edit > Save current setting as default をクリック。終わり。
 
@@ -61,12 +43,9 @@ Video Output でコーデックを指定すればまあまあ凝った編集は�
 
 ポチポチ触ってればだいたい分かるけど、トリミングに使う機能だけ紹介すると、
 
-<ul>
-<li><span style="color: #d32f2f">A</span> -> Delete key: ここから消す</li>
-<li>B -> Delete key: ここまで消す</li>
-<li><span style="color: #d32f2f">A</span> -> B Delete key: ここからここまで消す</li>
-</ul>
-
+- A -> <kbd>Delete</kbd>: ここから消す
+- B -> <kbd>Delete</kbd>: ここまで消す
+- A B -> <kbd>Delete</kbd>: ここからここまで消す
 
 みたいな感じ。
 
@@ -74,9 +53,9 @@ Video Output でコーデックを指定すればまあまあ凝った編集は�
 
 解像度が違う動画同士は基本繋げられないけど、なんとかする方法はあるっぽい (自分は使わないので割愛)。
 
-<iframe width="480" height="270" src="https://www.youtube.com/embed/orxUZGD75Dk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><cite class="hatena-citation"><a href="https://youtu.be/orxUZGD75Dk">youtu.be</a></cite>
+{{< youtube orxUZGD75Dk >}}
 
-編集が終わったら Ctrl - S で保存。終わり!
+編集が終わったら Ctrl-S で保存。
 
 サクッと編集してサクッと上げたい人におすすめの編集ソフトです。
 

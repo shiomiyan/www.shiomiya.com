@@ -13,7 +13,7 @@ author = "shiomiya"
 
 {{< github "danielchalmers/SteamAccountSwitcher" >}}
 
-<a href="https://github.com/danielchalmers/SteamAccountSwitcher/releases">Releaseタブ</a> から最新版のSetup.exeを拾ってインストール.
+Releasesから最新版のSetup.exeを拾ってインストール.
 
 ![](20200201142656.jpg)
 
