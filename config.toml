@@ -19,11 +19,6 @@ copyrightYear = 2019
 dateFormat = "Jan 2, 2006 3:04PM"
 highlight = "dark"
 
-[params.rss] # Adding this tag enables RSS feed
-includeContent = true # Includes whole content in rss
-authorName = "shiomiya" # Author full name
-authorEmail = "" # Author email
-
 [params.assets]
 customCSS = ["css/custom.css"]
 
@@ -39,27 +34,14 @@ taxonomiesCount = true # Add taxonomies count
 [params.features]
 disqusOnDemand = true  # Load Disqus comments on click
 
-
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
-
-[params.opengraph.twitter]
-page = "" # Twitter Page username. If not set, params.social.twitter will be used.
-
 [params.social]
 twitter = ""
 github = "shiomiyan"
 email = ""
-linkedin = ""
-facebook = ""
-instagram = ""
-codepen = ""
 rss = "index.xml" # Add this to show RSS button in social.
 
 [params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin", "rss"]
+platforms = ["github","twitter","email","rss"]
 
 [params.sections_right]
 "/categories" = "categories"
