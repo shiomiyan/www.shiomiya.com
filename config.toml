@@ -1,9 +1,8 @@
 baseurl = "https://www.shiomiya.com"
-languageCode = "en"
+languageCode = "ja-jp"
 title = "umilog"
 theme = "kiss"
 copyright = "&copy; shiomiya 2017"
-disqusShortname = ""
 googleAnalytics = "UA-139120340-2"
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
@@ -13,11 +12,9 @@ hasCJKLanguage = true
 posts = "/:filename"
 
 [params]
-mainSections = ["posts"]
 copyrightYear = 2019
 # Go Reference time: Mon Jan 2 15:04:05 MST 2006
 dateFormat = "Jan 2, 2006 3:04PM"
-highlight = "dark"
 
 [params.assets]
 customCSS = ["css/custom.css"]
