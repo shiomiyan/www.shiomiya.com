@@ -13,11 +13,12 @@ OBS Replay Buffer を Geforce Experience の instant replay のように使う�
 
 ### OBS のインストール
 
-<a href="https://obsproject.com/download">Download | OBS</a>
+[Download | OBS](https://obsproject.com/download)
 
 ### OBS の設定
 
-PC スペックに合わせて設定
+PC スペックに合わせてエンコード設定
+
 ![](image1.png)
 ![](image2.png)
 ![](image3.png)
@@ -30,19 +31,21 @@ bitrate の設定は適宜アップロード先の推奨ビットレートを参
 
 ただ、NVENC で動きの早いゲームや色味の強いゲームを録画する際はやや多めに設定しておくときれいに取れる気がします。
 
-好みでホットキーを設定
+好みでホットキーも設定
+
 ![](image4.png)
 
-出力 > 録画 > 録画ファイルのパス を保存したいところに適宜設定 (例: <code>C:\Users\&lt;username>\Videos</code>)
+出力 > 録画 > 録画ファイルのパス を保存したいところに適宜設定 (例: `C:\Users\<username>\Videos`)
 
 ### OBS をスタートアップに追加する
 
-Finder で <code>C:\Users\&lt;user name>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</code> へ移動。<br/>
+Finder で `C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` へ移動。
+
 右クリック > 新規作成 > ショートカット
 
 ![](image5.png)
 
-項目の場所に <code>C:\Program Files\obs-studio\bin\64bit\obs64.exe</code> を指定。任意の名前 (OBS Studio 等) を設定後、完了。
+項目の場所に `C:\Program Files\obs-studio\bin\64bit\obs64.exe` を指定。任意の名前 (OBS Studio 等) を設定後、完了。
 
 ![](image6.png)
 
@@ -52,15 +55,15 @@ Geforcce Experience の instant replay 同様、PC 起動時に OBS が裏で起
 
 ### OBS 起動時に Replay Buffer が自動的にスタートするようにする
 
-<code>C:\Users\&lt;user name>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</code> へ再び移動し、OBS Studio へのショートカットを右クリックしてプロパティを開く。
+`C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` へ再び移動し、OBS Studio へのショートカットを右クリックしてプロパティを開く。
 
-リンク先の項目が <code>"C:\Program Files\obs-studio\bin\64bit\obs64.exe" --startreplaybuffer</code> となるように変更。
+リンク先の項目が `"C:\Program Files\obs-studio\bin\64bit\obs64.exe" --startreplaybuffer` となるように変更。
 
 実行時の大きさを最小化に設定。
 
 ![](image7.png)
 
-試してないけど、起動オプションに <code>--minimize-to-tray</code> もつけておけば多分最小化される。
+試してないけど、起動オプションに `--minimize-to-tray` もつけておけば多分最小化される。
 
 [Wiki - Launch Parameters | OBS](https://obsproject.com/wiki/Launch-Parameters)
 
@@ -76,18 +79,16 @@ PCを再起動し、OBS Replay Buffer が走っていることを確認して終
 
 強いて言うなら、プログラムごとにクリップがフォルダリングされないことがちょっと不満。
 
-<strong>おまけ</strong>
+### おまけ
 
 設定 > 一般 > システムトレイ の項目をすべてチェックしておくと、システムトレイに最小化されていい感じ (好み)。
 
 どうせ自動で起動するので、タスクバーでのピン留めは外した。というか、外しておかないと触ったときに多重起動になってしまった事があったので外した。
 
-<hr/>
+---
 
-<strong>追記</strong>
+追記
 
-OBS の設定を import して使うこと前提で起動設定を調整して、 <code>--startreplaybuffer --minimize-to-tray --collection "default" --profile "default" --scene "replay"</code> のように変更。
+OBS の設定を import して使うこと前提で起動設定を調整して、 `--startreplaybuffer --minimize-to-tray --collection "default" --profile "default" --scene "replay"` のように変更。
 
 理由は PC 初期化後にシーンが勝手に切り替わっていたことがあったから。
-
-

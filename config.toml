@@ -1,18 +1,13 @@
-baseURL = "https://www.shiomiya.com"
-languageCode = "ja-jp"
+baseurl = "https://www.shiomiya.com"
+languageCode = "jp"
 title = "umilog"
-theme = "axiom"
-
-paginate = 5
-canonifyURLs = false
-summaryLength = 40
-rssLimit = 100
-enableEmoji = true
+theme = "kiss"
+copyright = "&copy; shiomiya 2017"
+disqusShortname = ""
+googleAnalytics = "UA-139120340-2"
+Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
-pluralizelisttitles = false
 hasCJKLanguage = true
-
-enableGitInfo = true
 
 [permalinks]
 posts = "/:filename"
@@ -24,129 +19,69 @@ copyrightYear = 2019
 dateFormat = "Jan 2, 2006 3:04PM"
 highlight = "dark"
 
-[params.brand]
-domain = "shiomiya.com"
-email = "dev.umisk@gmail.com"
-
-[params.social]
-# github = "https://github.com/shiomiyan"
-# twitter = "https://twitter.com/uminchu_sk"
-# youtube = "https://www.youtube.com/user"
-# footer = ["twitter"]
-
-[params.services]
-googleAnalyticsId = "UA-139120340-2"
-googleTagManagerId = ""
-googleAdsId = ""
-googleAdsenseId = "ca-pub-7067582591422237"
-googleAdsenseAdSlotId = "6356042672"
-googleAdsenseLoad = ""
-googleAdsConversionId = ""
-googleAdsConversionValue = 0
-# facebookApp = ""
-facebookPixel = ""
-# disqusShortname = "shiomiyan"
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "shiomiya" # Author full name
+authorEmail = "" # Author email
 
 [params.image]
 width = "2048"
 height = "1024"
-faviconIco = "favicon.ico"
-faviconAlt = "image/brand/favicon.png"
-icon1To1 = "image/brand/icon-1-1.png"
-icon2To1 = "image/brand/icon-2-1.png"
-default = "image/page-default.webp"
+faviconIco = ""
 
-[params.font]
-type = ""
-path = ""
-files = []
+[params.assets]
+customCSS = ["css/custom.css"]
 
-[params.cdn]
-provider = "local"
-type = "image"
+[params.info]
+adsense = "7067582591422237" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+codeCopy = false # Add copy button above code blocks
+taxonomiesCount = true # Add taxonomies count
 
-[params.cloudinary]
-host = "https://res.cloudinary.com/CLOUD_NAME/"
-version = ""
-image = "image/upload/"
-raw = "raw/upload/"
-video = "video/upload/"
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
 
-[params.cloudinary.presets]
-base = "f_auto,q_auto/"
-page = "w_auto,dpr_auto,c_scale,f_auto,q_auto/"
-feature = "w_auto,dpr_auto,c_scale,f_auto,q_auto/"
-summary = "w_auto,dpr_auto,c_scale,f_auto,q_auto/"
 
-[outputs]
-home = ["HTML", "ATOM"]
-section = ["HTML"]
-taxonomy = ["HTML"]
-taxonomyTerm = ["HTML"]
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
 
-[outputFormats]
-[outputFormats.ATOM]
-name = "ATOM"
-baseName = "feed"
-mediaType = "application/atom+xml"
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
 
-[mediaTypes]
-[mediaTypes."application/atom+xml"]
-suffixes = ["atom"]
+[params.social]
+twitter = ""
+github = ""
+email = ""
+linkedin = ""
+facebook = ""
+instagram = ""
+codepen = ""
+rss = "index.xml" # Add this to show RSS button in social.
 
-[markup]
-[markup.goldmark]
-[markup.goldmark.extensions]
-definitionList = false
-footnote = true
-linkify = false
-strikethrough = false
-table = true
-taskList = false
-typographer = false
-[markup.goldmark.renderer]
-unsafe = true
-[markup.goldmark.parser]
-attribute = false
-[markup.highlight]
-codeFences = true
-noClasses = false
-tabWidth = 2
-# lineNos = true
-# lineNumbersInTable = false
-[markup.tableOfContents]
-endLevel = 3
-ordered = true
-startLevel = 1
+[params.social.config]
+platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
+
+[params.matomoAnalytics]
+siteID = 1
+rootURL = "//matomo.example.com/"
+
+[params.fathomAnalytics]
+rootURL = "//fathom.example.com/"
+
+[taxonomies]
+tag ="tags"
+category = "categories"
+
+[blackfriday]
+hrefTargetBlank = true
 
 [menu]
 [[menu.main]]
 url = "/posts/"
 name = "Posts"
 weight = 1
-
-[[menu.foot]]
-# url = "/posts/"
-# name = "Posts"
-# weight = 1
-
-[[menu.foot]]
-url = "/about/"
-name = "About"
-weight = 2
-
-[[menu.foot]]
-# url = "/contact/"
-# name = "Contact"
-# weight = 3
-
-[[menu.foot]]
-# url = "/privacy/"
-# name = "Privacy"
-# weight = 4
-
-[[redirects]]
-from = "https://shiomiya.work/*"
-to = "https://www.shiomiya.com/:splat"
-status = 301
-force = true

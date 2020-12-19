@@ -34,22 +34,24 @@ toc = true
 
 ### ISO ダウンロード
 
-<a href="https://www.revi.cc/revios/download">公式サイトの Download</a> から好きなバージョンの ISO をダウンロードする。
+公式サイトの [Download](https://www.revi.cc/revios/download) から好きなバージョンの ISO をダウンロードする。
 
-ただ 2020/12/4 現在、ここからダウンロードできるものの中で日本語 IME (Google 日本語入力) が僕の PC で正常に動作したものは <strong>20H2 S1.0</strong>、 <strong>2004S1.0</strong> の2つのみだったので、この2つのどちらかになりそうです。
+ただ 2020/12/4 現在、ここからダウンロードできるものの中で日本語 IME (Google 日本語入力) が僕の PC で正常に動作したものは **20H2 S1.0**、 **2004S1.0** の2つのみだったので、この2つのどちらかになりそうです。
 
-<a href="https://www.revi.cc/revios/changelog">Changelog</a> に
+Changelog に
 
 >FIXED: Input Method Editor for Asian languages
 
 とは書いてあったけど Microsoft の IME は機能しなくて、結局 Google 日本語入力を入れる必要があったのはちょっと不満。Asian Languages とは一体。
+
+https://www.revi.cc/revios/changelog
 
 ### Bootable USB の作成
 
 動画でも使っている Rufus が一番ラクです。多分。
 使い慣れているものがあればそれを使ってください。
 
-<a href="https://rufus.ie/">Rufus - The Official Website (Download, New Releases)</a>
+[Rufus - The Official Website (Download, New Releases)](https://rufus.ie/)
 
 ここからダウンロード。そんなに頻繁に使うものでもないので Portable 版で十分です。
 
@@ -59,12 +61,9 @@ toc = true
 
 #### パーティション構成について
 
-<ol>
-<li>Win + R でファイル名を指定して実行から、<code>DISKMGMT.MSC</code> を実行。</li>
-<li>インストールを考えているドライブを右クリックしてプロパティを開く。</li>
-<li>ボリュームタブのパーティションのスタイルを参考に設定。</li>
-</ol>
-
+- Win + R でファイル名を指定して実行から、`DISKMGMT.MSC` を実行。
+- インストールを考えているドライブを右クリックしてプロパティを開く。
+- ボリュームタブのパーティションのスタイルを参考に設定。
 
 スタートを押して少し待てば完了。
 
@@ -82,7 +81,7 @@ toc = true
 
 ## インストール後にやること (やったこと)
 
-ここからは僕が勝手にやったことなので好きなところだけ汲み取ってやるもよし終わるもよし。
+ここからは僕が勝手にやったこと。
 
 ### 表示言語の変更
 
@@ -94,9 +93,9 @@ toc = true
 
 ### 日本語 IME 導入
 
-<code>FIXED: Input Method Editor for Asian languages</code> のハズが日本語はどうやら打てなかったので、 Google 日本語入力をインストールします。
+やはり日本語 IME が使えなかったので、 Google 日本語入力をインストールします。
 
-<a href="https://www.google.co.jp/ime/">Google 日本語入力 – Google</a>
+[Google 日本語入力 – Google](https://www.google.co.jp/ime/)
 
 インストールウィザードにしたがってインストール後、 設定 > 時刻と言語 > 言語 > 日本語 > オプション から、キーボードの追加で Google 日本語入力を追加。
 
@@ -106,17 +105,17 @@ toc = true
 
 この辺から公式サイトの Post-Install とかぶることが多いので、詳しくはそちらで。
 
-NVCleanInstall か NVSlimmer か、みたいな感じらしいですが、個人的にわかりやすかった NVSlimmer を推します。
+NVCleanInstall か NVSlimmer か、みたいな感じらしいですが、個人的に使いやすかった NVSlimmer を推します。
 
-<a href="https://www.guru3d.com/files-get/nvidia-driver-slimming-utility,2.html">NVIDIA driver slimming utility v0.10 Download</a>
+[NVIDIA driver slimming utility v0.10 Download](https://www.guru3d.com/files-get/nvidia-driver-slimming-utility,2.html)
 
-<a href="https://www.nvidia.com/download/driverResults.aspx/158756/en-us">NVIDIA DRIVERS GeForce Game Ready Driver WHQL</a>
+[NVIDIA DRIVERS GeForce Game Ready Driver WHQL](https://www.nvidia.com/download/driverResults.aspx/158756/en-us)
 
 上記サイトから NVSlimmer とドライバをインストール。ドライバのバージョンについては何でもいいのですが、442.74 が最もいいという話はここだけでされているわけでもないので 442.74 で。
 
-ダウンロードした zip を解答して出てきた NVSlimmer.exe を起動。
+ダウンロードした zip を解凍して出てきた NVSlimmer.exe を起動。
 
-ドライバの選択を促されるので、インストールしたドライバ (ex. <code>442.74-desktop-win10-64bit-international-whql.exe</code> ) を選択。
+ドライバの選択を促されるので、インストールしたドライバ (ex. 442.74-desktop-win10-64bit-international-whql.exe) を選択。
 
 ドライバのロードが終了するとチェック項目が出てくるので、特に必要なものがなければ画像のようにチェック。
 
@@ -132,11 +131,11 @@ NVCleanInstall か NVSlimmer か、みたいな感じらしいですが、個人
 
 大体のゲームに必要なのでインストール。
 
-<a href="https://sites.google.com/view/meetrevision/revios/post-install#h.p_-aHIalM_nOwU">Revision - Post-Install</a>
+[Revision - Post-Install](https://sites.google.com/view/meetrevision/revios/post-install#h.p_-aHIalM_nOwU)
 
 Revision Post-Install を参考にインストール。 Method1 が楽なのでおすすめ。
 
-<hr/>
+---
 
 大体ここまでやれば問題なく動くはずです。
 
@@ -150,13 +149,12 @@ Revision Post-Install を参考にインストール。 Method1 が楽なので�
 
 反響があればもう少し丁寧に書きます。以上。
 
-<hr/>
+---
 
-参考<br/>
+参考
+
 <a href="https://sites.google.com/view/meetrevision/revios/post-install">https://sites.google.com/view/meetrevision/revios/post-install</a>
 
 <a href="https://sites.google.com/view/winshit/guides">https://sites.google.com/view/winshit/guides</a>
 
 <a href="https://docs.google.com/document/d/1_DwK2rn-nqox7cnbHfL7AzUjckUyvAIBzkTRFFLD3NQ">https://docs.google.com/document/d/1_DwK2rn-nqox7cnbHfL7AzUjckUyvAIBzkTRFFLD3NQ</a>
-
-
