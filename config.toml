@@ -1,5 +1,5 @@
 baseurl = "https://www.shiomiya.com"
-languageCode = "jp"
+languageCode = "en"
 title = "umilog"
 theme = "kiss"
 copyright = "&copy; shiomiya 2017"
@@ -24,11 +24,6 @@ includeContent = true # Includes whole content in rss
 authorName = "shiomiya" # Author full name
 authorEmail = "" # Author email
 
-[params.image]
-width = "2048"
-height = "1024"
-faviconIco = ""
-
 [params.assets]
 customCSS = ["css/custom.css"]
 
@@ -36,7 +31,7 @@ customCSS = ["css/custom.css"]
 adsense = "7067582591422237" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "" # Title for home page
-poweredby = true # Adds powered by hugo and kiss below Copyright
+poweredby = false # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
 codeCopy = false # Add copy button above code blocks
 taxonomiesCount = true # Add taxonomies count
@@ -55,7 +50,7 @@ page = "" # Twitter Page username. If not set, params.social.twitter will be use
 
 [params.social]
 twitter = ""
-github = ""
+github = "shiomiyan"
 email = ""
 linkedin = ""
 facebook = ""
@@ -64,14 +59,10 @@ codepen = ""
 rss = "index.xml" # Add this to show RSS button in social.
 
 [params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
+platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin", "rss"]
 
-[params.matomoAnalytics]
-siteID = 1
-rootURL = "//matomo.example.com/"
-
-[params.fathomAnalytics]
-rootURL = "//fathom.example.com/"
+[params.sections_right]
+"/categories" = "categories"
 
 [taxonomies]
 tag ="tags"
@@ -79,9 +70,3 @@ category = "categories"
 
 [blackfriday]
 hrefTargetBlank = true
-
-[menu]
-[[menu.main]]
-url = "/posts/"
-name = "Posts"
-weight = 1

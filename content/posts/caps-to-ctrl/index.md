@@ -11,7 +11,7 @@ categories = ["Tweak"]
 
 Windows10 で 忌まわしい CapsLock を Ctrl に書き換えるスクリプト。
 
-```reg
+```
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
