@@ -1,0 +1,26 @@
+{
+  "name": "www.shiomiya.com",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/c9fcc435-a82a-4179-ae93-f0dc887db2dd/deploy-status)](https://app.netlify.com/sites/thirsty-swanson-734122/deploys)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiomiyan/www.shiomiya.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiomiyan/www.shiomiya.com/issues"
+  },
+  "homepage": "https://github.com/shiomiyan/www.shiomiya.com#readme",
+  "devDependencies": {
+    "textlint": "^11.7.6",
+    "textlint-filter-rule-allowlist": "^2.0.1",
+    "textlint-rule-preset-ja-spacing": "^2.0.2",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
