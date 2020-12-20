@@ -1,12 +1,11 @@
-+++
-date = "2020-12-06 20:49:59 +0000 UTC"
-draft = false
-title = "超軽量版 Windows10 こと ReviOS インストールガイド"
-author = "shiomiya"
-tags = ["revios","windows10"]
-categories = ["tweak"]
-toc = true
-+++
+---
+date: "2020-12-06 20:49:59 +0000 UTC"
+draft: false
+title: "超軽量版 Windows10 こと ReviOS インストールガイド"
+author: "shiomiya"
+tags: ["revios","Windows10"]
+categories: ["tweak"]
+---
 
 海外の OS Tweaking Community (?) でぼちぼち話題っぽい RevisionOS (ReviOS) を使ってみたので導入手順とレビューをかんたんに書きます。
 
@@ -28,7 +27,7 @@ toc = true
 
 その先はとりあえず USB 一本あれば作業を進められるので USB だけ握りしめて読んでください。
 
-一応 Youtube にインストールガイドがあるので見ながらやれば簡単。本記事もほとんど動画をなぞるだけです。
+一応 YouTube にインストールガイドがあるので見ながらやれば簡単。本記事もほとんど動画をなぞるだけです。
 
 {{< youtube eNEIqFy2ftM >}}
 
@@ -36,7 +35,7 @@ toc = true
 
 公式サイトの [Download](https://www.revi.cc/revios/download) から好きなバージョンの ISO をダウンロードする。
 
-ただ 2020/12/4 現在、ここからダウンロードできるものの中で日本語 IME (Google 日本語入力) が僕の PC で正常に動作したものは **20H2 S1.0**、 **2004S1.0** の2つのみだったので、この2つのどちらかになりそうです。
+ただ 2020/12/4 現在、ここからダウンロードできるものの中で日本語 IME (Google 日本語入力) が僕の PC で正常に動作したものは **20H2 S1.0**、 **2004S1.0** の 2 つのみだったので、この 2 つのどちらかになりそうです。
 
 Changelog に
 
@@ -85,7 +84,7 @@ https://www.revi.cc/revios/changelog
 
 ### 表示言語の変更
 
-設定 > 時刻と言語 > 言語 > 言語の追加 から日本語をインストール。
+設定 > 時刻と言語 > 言語 > 言語の追加から日本語をインストール。
 
 手書きと音声認識はいらなさそうだったので外してダウンロード。
 
@@ -97,7 +96,7 @@ https://www.revi.cc/revios/changelog
 
 [Google 日本語入力 – Google](https://www.google.co.jp/ime/)
 
-インストールウィザードにしたがってインストール後、 設定 > 時刻と言語 > 言語 > 日本語 > オプション から、キーボードの追加で Google 日本語入力を追加。
+インストールウィザードにしたがってインストール後、 設定 > 時刻と言語 > 言語 > 日本語 > オプションから、キーボードの追加で Google 日本語入力を追加。
 
 ここまでで日本語入力は問題なく行える (ハズ) 。
 
@@ -123,7 +122,7 @@ NVCleanInstall か NVSlimmer か、みたいな感じらしいですが、個人
 
 もし Geforce Experience が必要であれば、 Geforce Experience ツリー下のチェック項目はすべてチェックしてください。多分しないとインストールでコケるので。加えて、インストール後に Geforce Experience 側の設定でドライバの自動アップデート設定を切ることをおすすめします。
 
-問題なければ Apply > Install 。通常のドライバインストールと同様にウィザードが走ると思います。カスタムではなく推奨で通り向ければおそらくOK。
+問題なければ Apply > Install 。通常のドライバインストールと同様にウィザードが走ると思います。カスタムではなく推奨で通り向ければおそらく OK。
 
 これでドライバのインストールは終了。
 

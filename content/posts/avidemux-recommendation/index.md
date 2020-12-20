@@ -1,17 +1,16 @@
+---
+date: "2020-12-01 14:02:55 +0000 UTC"
+draft: false
+title: "フリー動画編集ソフト avidemux のすゝめ"
+categories: ["software"]
+tags: ["avidemux"]
+---
 
-+++
-date = "2020-12-01 14:02:55 +0000 UTC"
-draft = false
-title = "フリー動画編集ソフト avidemux のすゝめ"
-categories = ["software"]
-tags = ["avidemux"]
-
-+++
 Davinci Resolve とか Aviutl とか、フリーでも高機能な動画編集ソフトはあるけど、メインの動画投稿先が Twitter の人にとってはそんなすごいのはいらない感がある。 (くだらん動画のためにいちいちプロジェクト作成するとか面倒臭すぎる)
 
 劣化ほぼなしで動画のトリミングと結合だけできれば満足なんですが、意外とそういうのがなかったのでご紹介。
 
-ちなみに今までは Microsoft Photo のトリミング機能 -> Free video joiner でやってたけど、 60fps の動画がトリミング後に低フレームレートになったり、劣化がひどいのでダメ。
+これまで Microsoft Photo のトリミング機能でやってたけど、 60fps の動画がトリミング後にフレームレートが低下したり劣化がひどいのでダメ。
 
 ## インストール
 
@@ -21,7 +20,7 @@ Davinci Resolve とか Aviutl とか、フリーでも高機能な動画編集�
 
 ### 設定項目
 
-言うてほとんどないですが、強いて言えば僕は mp4 の動画しか編集しないので
+言うてほとんどないですが、強いて言えば僕は mp4 の動画しか編集しないので以下のように設定。
 
 ![](image1.png)
 
@@ -31,17 +30,17 @@ Davinci Resolve とか Aviutl とか、フリーでも高機能な動画編集�
 |Audio Output|Copy|
 |Output Format|MP4 Muxer|
 
-に設定して、 Edit > Save current setting as default をクリック。終わり。
+Edit > Save current setting as default をクリック。終わり。
 
-Video Output でコーデックを指定すればまあまあ凝った編集はできるみたい。
+Video Output でコーデックを指定すればそこそこ凝った編集はできるみたい。
 
 ## 編集
 
 ![](image2.png)
 
-インターフェースはこんな感じで、下のボタンとスライダーくらいしか使うものはなし。
+インタフェースはこんな感じで、下のボタンとスライダーくらいしか使うものはなし。
 
-ポチポチ触ってればだいたい分かるけど、トリミングに使う機能だけ紹介すると、
+ポチポチ触ってればだいたい分かるけど、トリミングに使う機能だけ紹介する。
 
 - A -> <kbd>Delete</kbd>: ここから消す
 - B -> <kbd>Delete</kbd>: ここまで消す
@@ -58,5 +57,3 @@ Video Output でコーデックを指定すればまあまあ凝った編集は�
 編集が終わったら Ctrl-S で保存。
 
 サクッと編集してサクッと上げたい人におすすめの編集ソフトです。
-
-

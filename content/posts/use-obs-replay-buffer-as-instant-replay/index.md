@@ -1,11 +1,10 @@
-
-+++
-date = "2020-11-26 17:47:28 +0000 UTC"
-draft = false
-title = "OBS Replay Buffer を instant replay のように使う"
-categories = ["software"]
-tags = ["obs","Instant replay"]
-+++
+---
+date: "2020-11-26 17:47:28 +0000 UTC"
+draft: false
+title: "OBS Replay Buffer を instant replay のように使う"
+categories: ["software"]
+tags: ["obs","Instant replay"]
+---
 
 OBS Replay Buffer を Geforce Experience の instant replay のように使う方法。
 
@@ -23,7 +22,7 @@ PC スペックに合わせてエンコード設定
 ![](image2.png)
 ![](image3.png)
 
-※ Youtube に Flag movie としてあげたりするのが目的なら出力解像度は FHD 一択。
+※ YouTube に Flag movie としてあげたりするのが目的なら出力解像度は FHD 一択。
 
 bitrate の設定は適宜アップロード先の推奨ビットレートを参考にして設定。
 
@@ -35,7 +34,7 @@ bitrate の設定は適宜アップロード先の推奨ビットレートを参
 
 ![](image4.png)
 
-出力 > 録画 > 録画ファイルのパス を保存したいところに適宜設定 (例: `C:\Users\<username>\Videos`)
+出力 > 録画 > 録画ファイルのパスを保存したいところに適宜設定 (例: `C:\Users\<username>\Videos`)
 
 ### OBS をスタートアップに追加する
 
@@ -69,7 +68,7 @@ Geforcce Experience の instant replay 同様、PC 起動時に OBS が裏で起
 
 ### 最後に
 
-PCを再起動し、OBS Replay Buffer が走っていることを確認して終了。
+PC を再起動し、OBS Replay Buffer が走っていることを確認して終了。
 
 次回以降は OBS が自動で起動します。 もしオフにしたい場合はタスクマネージャーのスタートアップ項目から OBS を右クリックして無効化すれば OK 。
 
@@ -81,7 +80,7 @@ PCを再起動し、OBS Replay Buffer が走っていることを確認して終
 
 ### おまけ
 
-設定 > 一般 > システムトレイ の項目をすべてチェックしておくと、システムトレイに最小化されていい感じ (好み)。
+設定 > 一般 > システムトレイの項目をすべてチェックしておくと、システムトレイに最小化されていい感じ(好み)。
 
 どうせ自動で起動するので、タスクバーでのピン留めは外した。というか、外しておかないと触ったときに多重起動になってしまった事があったので外した。
 

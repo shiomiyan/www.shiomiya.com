@@ -1,11 +1,11 @@
-+++
-date = 2020-12-19T07:00:00Z
-lastmod = 2020-12-19T07:00:00Z
-title = "Windows の再インストール後にやることメモ"
-tags = ["windows10"]
-categories = ["tweak"]
-draft = false
-+++
+---
+date: 2020-12-19T07:00:00Z
+lastmod: 2020-12-19T07:00:00Z
+title: "Windows の再インストール後にやることメモ"
+tags: ["Windows10"]
+categories: ["tweak"]
+draft: false
+---
 
 OS クリーンインストールを頻繁にやるようになったので毎回やってることを書き留めておく。
 
@@ -98,7 +98,7 @@ required 以外はアンチェックしてインストール。
 
 ## ランタイムのダウンロード・インストール
 
-以下2つをダウンロード・インストール。
+以下 2 つをダウンロード・インストール。
 
 - https://www.microsoft.com/en-us/download/details.aspx?id=35
 - https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/
@@ -117,7 +117,7 @@ required 以外はアンチェックしてインストール。
 - Firefox
   - https://github.com/spencerwooo/firefox-overlay-scrollbar をインストール後に適用。
 - Google 日本語入力
-  - インストール後、IME有効化無効化のキーマップを全て `Ctrl-Space` に変更する。
+  - インストール後、IME 有効化無効化のキーマップを全て `Ctrl-Space` に変更する。
 - OBS
 - OpenShell
   - Start Menu のみインストール。それ以外はアンチェック。

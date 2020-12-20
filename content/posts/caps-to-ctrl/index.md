@@ -1,15 +1,15 @@
-+++
-date = 2020-12-18T08:00:00Z
-lastmod = 2020-12-18T08:00:00Z
-author = "shiomiya"
-title = "CapsLock を Ctrl として機能させる (Windows10)"
-tags = ["windows10","memo"]
-categories = ["Tweak"]
-+++
+---
+date: 2020-12-18T08:00:00Z
+lastmod: 2020-12-18T08:00:00Z
+author: "shiomiya"
+title: "CapsLock を Ctrl として機能させる (Windows10)"
+tags: ["Windows10","memo"]
+categories: ["Tweak"]
+---
 
 毎回毎回調べていて面倒だったのでメモ。
 
-Windows10 で 忌まわしい CapsLock を Ctrl に書き換えるスクリプト。
+Windows10 で忌まわしい CapsLock を Ctrl に書き換えるスクリプト。
 
 ```
 Windows Registry Editor Version 5.00

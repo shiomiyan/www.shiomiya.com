@@ -1,11 +1,11 @@
-+++
-date = "2020-02-01 14:30:04 +0000 UTC"
-draft = false
-title = "Steamアカウントをワンクリックで切り替える"
-categories = ["software"]
-tags = ["steam","memo"]
-author = "shiomiya"
-+++
+---
+date: "2020-02-01 14:30:04 +0000 UTC"
+draft: false
+title: "Steam アカウントをワンクリックで切り替える"
+categories: ["software"]
+tags: ["steam","memo"]
+author: "shiomiya"
+---
 
 便利だったので紹介
 
@@ -13,7 +13,7 @@ author = "shiomiya"
 
 {{< github "danielchalmers/SteamAccountSwitcher" >}}
 
-Releasesから最新版のSetup.exeを拾ってインストール.
+Releases から最新版の Setup.exe を拾ってインストール.
 
 ![](20200201142656.jpg)
 
