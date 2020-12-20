@@ -127,7 +127,7 @@ required 以外はアンチェックしてインストール。
   - https://github.com/Belphemur/SoundSwitch
   - ホットキーでサウンドデバイスを切り替えられるようにするツール。
 - Spotify
-  - `%USERPROFILE%\AppData\Roaming\Spotify` を開いて、 `storage.size=1024` の一行を追記。
+  - `%USERPROFILE%\AppData\Roaming\Spotify` に移動して、 `prefs` を開き `storage.size=1024` の一行を追記。
 - Steam
 - VLC (動画プレイヤー)
 - VSCode
