@@ -8,6 +8,8 @@ Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
 hasCJKLanguage = true
 
+enableGitInfo = true
+
 [permalinks]
 posts = "/:filename"
 
@@ -46,6 +48,3 @@ platforms = ["github","twitter","email","rss"]
 [taxonomies]
 tag ="tags"
 category = "categories"
-
-[blackfriday]
-hrefTargetBlank = true
