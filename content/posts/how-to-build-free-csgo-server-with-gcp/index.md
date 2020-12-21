@@ -1,7 +1,7 @@
 ---
 title: "GCP 上に CSGO のサーバーを無料で立てる方法"
 date: 2020-12-20T19:33:34+09:00
-draft: true
+draft: false
 author: "shiomiya"
 categories: ["game"]
 tags: ["csgo"]
@@ -11,7 +11,7 @@ GCP の無料枠を利用して CSGO のサーバーを建てる方法。
 
 ちなみにほとんど以下をなぞるだけ。
 
-https://www.reddit.com/r/GlobalOffensive/comments/iwm0i9/how_to_create_a_free_csgo_server_using_google/
+["How to create a FREE csgo server using Google Cloud for a year" via Reddit](https://www.reddit.com/r/GlobalOffensive/comments/iwm0i9/how_to_create_a_free_csgo_server_using_google/)
 
 **用意するもの**
 
@@ -101,7 +101,7 @@ https://console.cloud.google.com/compute/instances
 
 ![](2020-12-20_22-01_chrome.png)
 
-以下をコピペして実行(Enter)。そこそこ時間がかかる。
+ターミナル画面に以下をコピペして実行(Enter)。そこそこ時間がかかる。
 
 ```
 sudo -- sh -c 'dpkg --add-architecture i386; add-apt-repository multiverse; apt-get update; apt-get -y dist-upgrade'
@@ -158,18 +158,47 @@ EOF
 
 ## addons/mods のインストール
 
-ここまでで CSGO のサーバーは立ち上がっているので接続はできますが、投げ物練習にしろ紅白にしろ自前でセットアップするのはそこそこ手間がかかるので今回導入した方法では便利なコマンドが付いてるのでそれを使ってセットアップ。
+ここまでで CSGO のサーバーは立ち上がっているので接続はできますが、投げ物練習にしろ紅白にしろ自前でセットアップするのはそこそこ手間がかかる。
 
-一旦 CSGO サーバーを `quit` で停止させてから、 `./csgoserver mod-install` を実行。
-
-addon/mod をリストから選んで打ち込むとインストールができるので、以下 3 つをインストール。
-
-- metamodsource (依存)
-- sourcemod (依存)
-- pug (紅白)
+今回導入した方法では便利なコマンドが付いてるのでそれを使ってセットアップする。
 
 ![](2020-12-20_23-06_chrome.png)
 
-インストール後、 `sh start.sh` から再びサーバーを起動して接続すると `.setup` コマンドが使えるはずです。
+一旦 CSGO サーバーをターミナルから `quit` と打ち込み停止させてから `./csgoserver mod-install` を実行。
+
+以下 2 つをインストール(`./csgoserver mod-install` を 2 回実行することになる)。
+
+- metamodsource
+- sourcemod
+
+### 紅白設定の適用
+
+再び `./csgoserver mod-install` を実行し、 `pug` を選択しインストール。
+
+インストール後 `sh start.sh` から再びサーバーを起動して接続すると、チャットコマンド `.setup` から紅白のセットアップが行える。
+
+### Practice-Mode の適用
+
+投げ物練習等に使えるプラグインのインストール。
+
+以下から `practicemode_x.x.x.zip` をダウンロード。
+
+https://github.com/splewis/csgo-practice-mode/releases
+
+ターミナル右上の歯車をクリックして Upload file から、ダウンロードした zip をアップロード。
+
+ターミナル上で `tar xvzf [FILE_NAME] -C serverfiles/csgo/` を実行(`[FILE_NAME]` はダウンロードした zip ファイル名で置き換える)。
+
+インストール後 `sh start.sh` から再びサーバーを起動して接続すると、チャットコマンド `.setup` から practice mode へ切り替えることができる。
 
 ---
+
+やや手間は必要ですが、無料で CSGO のサーバーを建てる方法を紹介しました。
+
+普通に借りようとするとだいたい月額  800 円くらいはかかるので、少しは節約できる。
+
+なお、 2020/12/21 現在、 Project Hypnos が再稼働しているので、紅白サーバーを立てるならそれを使ったほうが間違いなく楽だし早い。
+
+{{< tweet 1329481701643325440 >}}
+
+{{< tweet 1334724113005350913 >}}
