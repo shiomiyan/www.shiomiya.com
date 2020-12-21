@@ -191,6 +191,14 @@ https://github.com/splewis/csgo-practice-mode/releases
 
 インストール後 `sh start.sh` から再びサーバーを起動して接続すると、チャットコマンド `.setup` から practice mode へ切り替えることができる。
 
+## インスタンスの停止
+
+無駄使いを避けるため、使用しないときにはインスタンスを停止させておく。
+
+CGP コンソールの VM インスタンスから `csgo-server` を停止。
+
+![](2020-12-21_14-47_firefox.png)
+
 ---
 
 やや手間は必要ですが、無料で CSGO のサーバーを建てる方法を紹介しました。
