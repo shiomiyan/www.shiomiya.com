@@ -26,9 +26,9 @@ GCP の無料枠を利用して CSGO のサーバーを建てる方法。
 
 初めて利用する場合、『無料トライアルに登録』があるので適宜フォームを入力してトライアルに登録する。
 
-クレジットカードの登録があるけど無料枠利用中は請求は来ないし、無料枠が終わっても自動で支払いが進められたりはしないのでご心配なく。
+クレジットカードの登録があるけど無料枠利用中に請求は来ないし、無料枠が終わっても自動で支払いが進められたりもしないのでご心配なく。
 
-ようこそ!と言われたら OK 。
+「ようこそ」と言われたら OK 。
 
 ## インスタンスの作成
 
@@ -107,7 +107,7 @@ https://console.cloud.google.com/compute/instances
 sudo -- sh -c 'dpkg --add-architecture i386; add-apt-repository multiverse; apt-get update; apt-get -y dist-upgrade'
 ```
 
-終わり次第次第以下を実行。すぐ終わる。
+終わり次第以下を実行。すぐ終わる。
 
 ```
 wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh csgoserver
@@ -152,9 +152,11 @@ EOF
 
 `sh start.sh` でサーバーを起動。
 
-`Connection to Steam servers successful. Public IP is ...` と表示されたら CSGO のサーバーが立ち上がっているはずなので、 CSGO を起動してコンソールに `connect [YOUR_EXTERNAL_IP]:27015; password [SERVER_PASSWORD]` と打ち込んで接続を確認する。
+`Connection to Steam servers successful. Public IP is ...` と表示されたら CSGO のサーバーは起動している。
 
-サーバーを閉じる際には SSH サーバー側で `quit` と打ち込んで Enter すれば閉じれる。
+CSGO を起動してコンソールに `connect [YOUR_EXTERNAL_IP]:27015; password [SERVER_PASSWORD]` と打ち込んで接続を確認する。
+
+サーバーを閉じる際には SSH サーバー側で `quit` と打ち込んで Enter すれば閉じられる。
 
 ## addons/mods のインストール
 
@@ -205,7 +207,7 @@ CGP コンソールの VM インスタンスから `csgo-server` を停止。
 
 普通に借りようとするとだいたい月額  800 円くらいはかかるので、少しは節約できる。
 
-なお、 2020/12/21 現在、 Project Hypnos が再稼働しているので、紅白サーバーを立てるならそれを使ったほうが間違いなく楽だし早い。
+なお 2020/12/21 現在、 Project Hypnos が再稼働しているので、紅白サーバーを立てるならそれを使ったほうが間違いなく楽だし早い。
 
 {{< tweet 1329481701643325440 >}}
 
