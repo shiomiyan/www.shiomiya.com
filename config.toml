@@ -7,7 +7,8 @@ googleAnalytics = "UA-139120340-2"
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
 hasCJKLanguage = true
-
+canonifyURLs = true
+enableEmoji = true
 enableGitInfo = true
 
 [permalinks]
@@ -24,7 +25,7 @@ customCSS = ["css/custom.css"]
 [params.info]
 adsense = "7067582591422237" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
-homeTitle = "" # Title for home page
+homeTitle = "umilog" # Title for home page
 poweredby = false # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
 codeCopy = false # Add copy button above code blocks
