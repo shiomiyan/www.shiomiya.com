@@ -3,7 +3,7 @@ date: "2020-11-26 17:47:28 +0000 UTC"
 draft: false
 title: "OBS Replay Buffer を instant replay のように使う"
 categories: ["software"]
-tags: ["obs","Instant replay"]
+tags: ["obs","instant replay"]
 ---
 
 OBS Replay Buffer を Geforce Experience の instant replay のように使う方法。

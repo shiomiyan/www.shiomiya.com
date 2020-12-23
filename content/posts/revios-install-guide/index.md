@@ -3,7 +3,7 @@ date: "2020-12-06 20:49:59 +0000 UTC"
 draft: false
 title: "超軽量版 Windows10 こと ReviOS インストールガイド"
 author: "shiomiya"
-tags: ["revios","Windows10"]
+tags: ["revios","windows10"]
 categories: ["tweak"]
 ---
 

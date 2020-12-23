@@ -4,7 +4,7 @@ date: 2020-12-16T10:13:46+09:00
 draft: false
 author: shiomiya
 categories: ["random"]
-tags: ["memo"]
+tags: ["hugo"]
 ---
 
 はてなブログから Hugo へ移行した移行記。
