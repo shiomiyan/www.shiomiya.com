@@ -2,7 +2,7 @@ baseurl = "https://www.shiomiya.com"
 languageCode = "ja-jp"
 title = "umilog"
 theme = "kiss"
-copyright = "&copy; shiomiya 2017"
+copyright = "&copy; shiomiya 2019"
 googleAnalytics = "UA-139120340-2"
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
@@ -49,3 +49,6 @@ platforms = ["github","twitter","email","rss"]
 [taxonomies]
 tag ="tags"
 category = "categories"
+
+[blackfriday]
+hrefTargetBlank = true
