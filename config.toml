@@ -56,3 +56,7 @@ category = "categories"
 
 [blackfriday]
 hrefTargetBlank = true
+
+[markup]
+[markup.highlight]
+style = "github"

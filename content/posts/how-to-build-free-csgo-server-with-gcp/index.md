@@ -123,19 +123,15 @@ wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm
 
 以下のコードの `[YOUR_TOKEN]` と `[YOUR_INTERNAL_IP]` を途中でメモしたログイントークンと内部 IP で置き換えて実行する。
 
-```
-echo "screen serverfiles/srcds_run -game csgo -usercon -strict
-portbind -ip [YOUR IP] -port 27015 +clientport 27005 +tv_port 27020 +sv_setsteamaccount
- [YOUR CODE] -tickrate 128 +map de_mirage +servercfgfile server.cfg -maxplayers_overrid
-e 16 +mapgroup mg_active +game_type 0 +game_mode 1 +host_workshop_collection +workshop_
-start_map -authkey -nobreakpad" > start.sh
+```sh
+echo "screen serverfiles/srcds_run -game csgo -usercon -strictportbind -ip [YOUR_INTERNAL_IP] -port 27015 +clientport 27005 +tv_port 27020 +sv_setsteamaccount [YOUR_TOKEN] -tickrate 128 +map de_mirage +servercfgfile server.cfg -maxplayers_override 16 +mapgroup mg_active +game_type 0 +game_mode 1 +host_workshop_collection +workshop_start_map -authkey -nobreakpad" > start.sh
 ```
 
 さらに CSGO のサーバー設定ファイルを追加するため以下を実行。
 
 `rcon_password` と `sv_password` は適宜好きな文字列に置き換えてください。
 
-```
+```sh
 cat <<EOF > serverfiles/csgo/cfg/autoexec.cfg
 hostname "CSGO Server"
 rcon_password "YOUR_RCON_PASSWORD"
