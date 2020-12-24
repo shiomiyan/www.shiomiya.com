@@ -1,6 +1,7 @@
 ---
 title: "About"
 caption: "このサイトについて"
+hidden: true
 noindex: true
 ---
 
