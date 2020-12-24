@@ -4,7 +4,7 @@ title = "umilog"
 theme = "kiss"
 copyright = "&copy; shiomiya 2019"
 googleAnalytics = "UA-139120340-2"
-Paginate = 5 # Number of posts per page
+Paginate = 10 # Number of posts per page
 enableRobotsTXT = true
 hasCJKLanguage = true
 canonifyURLs = true
@@ -12,7 +12,6 @@ enableEmoji = true
 enableGitInfo = true
 pygmentsUseClasses=true
 pygmentsCodefences = true
-pygmentsStyle = "github"
 
 [permalinks]
 posts = "/:filename"
@@ -51,6 +50,7 @@ siteID = 1
 rootURL = "https://shiomiya.matomo.cloud/"
 
 [params.sections_right]
+"/about" = "about"
 "/categories" = "categories"
 
 [taxonomies]
