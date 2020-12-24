@@ -42,14 +42,15 @@ https://console.cloud.google.com/compute/instances
 
 新規 VM インスタンスから、以下のように設定。
 
-||||
-|---|---|---|
-|名前|`csgo-server`||
-|リージョン|`asia-northeast1 (東京)`|プレイする地域から近ければどこでも OK|
-|ゾーン|`asia-northeast1-b`|ゾーンによってスペックが変わったりするけど多分どこでも OK|
-|マシンファミリー|汎用||
-|シリーズ|E2||
-|マシンタイプ|`e2-standard-4`|一人で練習したりするだけなら `e2-standard-2` でも可。|
+
+|                  |                        |                                                           |
+|------------------|------------------------|-----------------------------------------------------------|
+| 名前             | csgo-server            |                                                           |
+| リージョン       | asia-northeast1 (東京) | プレイする地域から近ければどこでも OK                     |
+| ゾーン           | asia-northeast1-b      | ゾーンによってスペックが変わったりするけど多分どこでも OK |
+| マシンファミリー | 汎用                   |                                                           |
+| シリーズ         | E2                     |                                                           |
+| マシンタイプ     | e2-standard-4          | 一人で練習したりするだけなら e2-standard-2 でも可         |
 
 ![](2020-12-20_20-59_chrome.png)
 
@@ -103,13 +104,13 @@ https://console.cloud.google.com/compute/instances
 
 ターミナル画面に以下をコピペして実行(Enter)。そこそこ時間がかかる。
 
-```
+```sh
 sudo -- sh -c 'dpkg --add-architecture i386; add-apt-repository multiverse; apt-get update; apt-get -y dist-upgrade'
 ```
 
 終わり次第以下を実行。すぐ終わる。
 
-```
+```sh
 wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh csgoserver
 ```
 

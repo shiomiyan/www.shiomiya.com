@@ -10,6 +10,9 @@ hasCJKLanguage = true
 canonifyURLs = true
 enableEmoji = true
 enableGitInfo = true
+pygmentsUseClasses=true
+pygmentsCodefences = true
+pygmentsStyle = "github"
 
 [permalinks]
 posts = "/:filename"
@@ -57,6 +60,3 @@ category = "categories"
 [blackfriday]
 hrefTargetBlank = true
 
-[markup]
-[markup.highlight]
-style = "github"
