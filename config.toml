@@ -45,7 +45,7 @@ platforms = ["github","twitter","email","rss"]
 
 [params.matomoAnalytics]
 siteID = 1
-rootURL = "shiomiya.matomo.cloud"
+rootURL = "https://shiomiya.matomo.cloud/"
 
 [params.sections_right]
 "/categories" = "categories"
