@@ -1,0 +1,16 @@
+ci:
+  collect:
+    staticDistDir: "./public"
+    url: ["http://localhost:1313"]
+
+  assert:
+    # assert options here
+
+  upload:
+    target: "temporary-public-storage"
+
+  server:
+    # server options here
+
+  wizard:
+    # wizard options here
