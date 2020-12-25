@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/c9fcc435-a82a-4179-ae93-f0dc887db2dd/deploy-status)](https://app.netlify.com/sites/thirsty-swanson-734122/deploys)",
   "main": "index.js",
-  "scripts": {
-    "lh": "npm run lhci autorun"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shiomiyan/www.shiomiya.com.git"
@@ -18,7 +16,6 @@
   },
   "homepage": "https://github.com/shiomiyan/www.shiomiya.com#readme",
   "devDependencies": {
-    "@lhci/cli": "^0.6.1",
     "textlint": "^11.7.6",
     "textlint-filter-rule-allowlist": "^2.0.1",
     "textlint-rule-preset-ja-spacing": "^2.0.2",
