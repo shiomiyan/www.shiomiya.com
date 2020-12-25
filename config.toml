@@ -10,7 +10,7 @@ hasCJKLanguage = true
 canonifyURLs = true
 enableEmoji = true
 enableGitInfo = true
-pygmentsUseClasses=true
+pygmentsUseClasses = true
 pygmentsCodefences = true
 
 [permalinks]
