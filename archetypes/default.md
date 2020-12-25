@@ -1,10 +1,12 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: "{{ .Date }}"
-description: ""
+title: {{ replace .Name "-" " " | title }}
+date: {{ .Date }}
+description:
 draft: true
-author: "shiomiya"
-categories: []
-tags: []
----
+author: shiomiya
+categories: 
+tags:
+  - 
+  -
 
+---
