@@ -1,15 +1,10 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9fcc435-a82a-4179-ae93-f0dc887db2dd/deploy-status)](https://app.netlify.com/sites/thirsty-swanson-734122/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d9b0ad6b-de5a-4238-b8cc-647e169a72d8/deploy-status)](https://app.netlify.com/sites/shiomiya/deploys)
 
 The article will be deployed when it is pushed to the master branch.
 
-## Create new post from Github
+## Create new post from Web
 
-1. Go to [content/posts](./content/posts) directory.
-2. Add file > Create new file
-3. Type `<post-name>/index.md` in textform.
-4. Writing post!
-
-or use CMS https://app.forestry.io
+https://app.forestry.io
 
 ## Create new post from Local
 
