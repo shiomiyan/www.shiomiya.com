@@ -2,12 +2,13 @@
 title: 2021 年に向けて CUI 環境を整理した
 date: 2020-12-26T17:21:25+09:00
 description:
-draft: true
+draft: false
 author: shiomiya
-categories: 
+categories: tech
 tags:
-  - 
-  -
+  - vim
+  - macOS
+  - shell
 
 ---
 
@@ -78,12 +79,14 @@ Plug 'w0rp/ale'
 
 ちなみにテーマはお気に入りの gruvbox をやめて気分転換に nord にしてみた。
 
-## Zsh
+## Shell
 
-これと言って大きな変更点はないが macOS と WSL で dotfiles を共有した際に Tmux がいい感じで動いてないので、以下のようにして ディストリビューション別に処理を分けるようにした。
+### Zsh
+
+macOS と WSL の両方で開発を行うようになったので、以下のようにして ディストリビューション別に処理を分けるようにした。
 
 ```sh
-case "${OSTYPE}" in
+case "$OSTYPE" in
   drawin*)
     # macOS
     ;;
@@ -95,5 +98,47 @@ esac
 
 > [.zshrcでOSを判断する – かひわし4v1.memo](https://khws4v1.myhome.cx/article/2015/02/zshrc%E3%81%A7os%E3%82%92%E5%88%A4%E6%96%AD%E3%81%99%E3%82%8B/)
 
-tmux 以外にも分岐させたい処理がいくつかあるので近いうちにもう少しスタイリッシュな感じにしたい。
+他の方法として `uname` から判別する方法もあったがどうやら `$OSTYPE` のほうがより高速らしい。
+
+zshrc の肥大化防止の為に今のうちからファイルを分割することにしたので、以下のような構成になった。
+
+```
+├── .zsh
+│  ├── aliases.zsh
+│  ├── exports.zsh
+│  └── tmux.zsh
+├── .zprofile
+├── .zshenv
+├── .zshrc
+```
+
+これで後々記述量が増えてもある程度見通しが良くなりそう。
+
+### Git
+
+tig と git command を併用してたけど、 Rust 製ツール探していたら見つけた gitui に乗り換えてみた。キーコンフィグも Vim に変更してファーストインプレッションはいい感じなのでしばらくこれを使う。
+
+{{< github "extrawurst/gitui" >}}
+
+![](gitui.png)
+
+## その他ツール
+
+### ウィンドウマネージャー
+
+初の WM に [yabai](https://github.com/koekeishiya/yabai) を導入してみた。
+
+一旦ゆるく導入したい + Karabiner との干渉がちょっと怖いのとで skhd は後ほど入れることにした。
+
+まだ ignore の設定と細かい設定を済ませていないので、勝手に 1:1 になってくれたり画面いっぱいになってくれたりするくらいしか恩恵を受けていない。
+
+### ブラウザ
+
+Firefox + DuckDuckGo のプライバシーに配慮した構成にした。DuckDuckGo にしてから検索結果に個人ブログがたくさん出てくるようになってネットサーフィンが楽しくなった。あと Bang! が意外と便利。
+
+## おわりに
+
+極力 Linux 、 macOS 、 Windows(WSL) 間でシームレスに設定を共有できるようにしておきたいのだがなかなか難しい。
+
+dotfiles 群をそこそこ整理できたのは結構気に入っている。そのうち CI を導入してディストリビューションごとに設定が通ることを保証できるようにしたい。
 
