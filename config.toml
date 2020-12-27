@@ -37,13 +37,11 @@ taxonomiesCount = true # Add taxonomies count
 disqusOnDemand = true  # Load Disqus comments on click
 
 [params.social]
-twitter = ""
 github = "shiomiyan"
-email = ""
 rss = "index.xml" # Add this to show RSS button in social.
 
 [params.social.config]
-platforms = ["github","twitter","email","rss"]
+platforms = ["github","rss"]
 
 [params.sections_right]
 "/about" = "about"
