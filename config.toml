@@ -45,10 +45,6 @@ rss = "index.xml" # Add this to show RSS button in social.
 [params.social.config]
 platforms = ["github","twitter","email","rss"]
 
-[params.matomoAnalytics]
-siteID = 1
-rootURL = "https://shiomiya.matomo.cloud/"
-
 [params.sections_right]
 "/about" = "about"
 "/categories" = "categories"
