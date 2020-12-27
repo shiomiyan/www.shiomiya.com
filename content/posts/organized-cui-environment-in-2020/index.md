@@ -1,5 +1,5 @@
 ---
-title: 2021 年に向けて CUI 環境を整理した
+title: 2021 年に向けて開発環境を整理した
 date: 2020-12-26T17:21:25+09:00
 description:
 draft: false
@@ -7,12 +7,12 @@ author: shiomiya
 categories: tech
 tags:
   - vim
-  - macOS
+  - macos
   - shell
 
 ---
 
-2020 年も終わりそうなので Vim や Shell 周りの開発環境を断捨離したのでその記録。
+2020 年も終わりそうなので Vim や Shell 周りの CUI 開発環境を断捨離したのでその記録。
 
 ## Vim
 
@@ -141,4 +141,3 @@ Firefox + DuckDuckGo のプライバシーに配慮した構成にした。DuckD
 極力 Linux 、 macOS 、 Windows(WSL) 間でシームレスに設定を共有できるようにしておきたいのだがなかなか難しい。
 
 dotfiles 群をそこそこ整理できたのは結構気に入っている。そのうち CI を導入してディストリビューションごとに設定が通ることを保証できるようにしたい。
-
