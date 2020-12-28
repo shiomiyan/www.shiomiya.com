@@ -2,7 +2,7 @@
 title: 静的ブログのホスティングサービスを Netlify から Vercel に乗り換えた
 date: 2020-12-28T20:13:01+09:00
 description:
-draft: true
+draft: false
 author: shiomiya
 categories: tech
 tags:
