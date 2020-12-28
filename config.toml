@@ -31,9 +31,6 @@ related = true # Includes related articles at the bottom of the article
 codeCopy = false # Add copy button above code blocks
 taxonomiesCount = true # Add taxonomies count
 
-[params.features]
-disqusOnDemand = true  # Load Disqus comments on click
-
 [params.social]
 github = "shiomiyan"
 rss = "index.xml" # Add this to show RSS button in social.
