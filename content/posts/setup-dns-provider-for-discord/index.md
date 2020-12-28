@@ -1,5 +1,5 @@
 ---
-title: Setup Dns Provider for Discord
+title: DNS を設定したら Discord で相手の声が飛ぶ現象が改善した
 date: 2020-12-28T13:05:35+09:00
 description:
 draft: false
@@ -7,7 +7,6 @@ author: shiomiya
 categories: game
 tags:
   - discord
-  -
 
 ---
 
