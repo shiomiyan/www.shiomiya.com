@@ -1,0 +1,49 @@
+---
+title: Setup Dns Provider for Discord
+date: 2020-12-28T13:05:35+09:00
+description:
+draft: true
+author: shiomiya
+categories: game
+tags:
+  - discord
+  -
+
+---
+
+Discord で相手方の声が頻繁に飛ぶので解決策を模索していたところ、 パブリック DNS を設定したところだいぶ落ち着いたのでご紹介。
+
+Twitch や YouTube で生放送を見ているときにバッファリングが頻発していたのもこれを設定したら改善された。
+
+## DNS サーバーを探す
+
+Google や Cludflare、 OpenDNS が結構メジャーだったりするが、一応 DNS Benchmark を使って自分にあったものを探してみる。以下からダウンロード。
+
+https://www.grc.com/dns/benchmark
+
+Nameservers > Run Benchmark からベンチマークを実行。終了するとポップアップが表示されるので Not now を押して結果を確認する。
+
+![](2020-12-28_14-03_DNSBench.png)
+
+なるほどわからんって感じですがバーが短ければ短いほどよい。
+
+結局メジャーなところが良さそうな感じで、候補としては以下。
+
+|          |                                 |
+|----------|---------------------------------|
+|Google    |`8.8.8.8` `8.8.4.4`              |
+|Cloudflare|`1.1.1.1` `1.0.0.1`              |
+|OpenDNS   |`208.67.220.220` `208.67.222.222`|
+|Level3    |`4.2.2.5` `4.2.2.6`              |
+
+## DNS サーバーの設定
+
+Win + R > `ncpa.cpl` を実行。
+
+利用しているネットワークアダプタを右クリック > プロパティを開く。
+
+Internet Protocol Version 4 (TCP/IPv4) を選択して「次の DNS サーバーのアドレスを使う」を選択して、お気に入りの DNS サーバーを入力して OK で終わる。
+
+## おわりに
+
+回線速度は出ているはずなのに同じ症状の人は試してみてもいいかも。
