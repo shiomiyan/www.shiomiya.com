@@ -2,7 +2,7 @@
 title: Setup Dns Provider for Discord
 date: 2020-12-28T13:05:35+09:00
 description:
-draft: true
+draft: false
 author: shiomiya
 categories: game
 tags:
