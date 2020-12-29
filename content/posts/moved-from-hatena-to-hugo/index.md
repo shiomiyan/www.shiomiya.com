@@ -5,6 +5,7 @@ draft: false
 author: shiomiya
 categories: ["random"]
 tags: ["hugo"]
+aliases: [/moved-from-hatena-to-hugo/]
 ---
 
 はてなブログから Hugo へ移行した移行記。

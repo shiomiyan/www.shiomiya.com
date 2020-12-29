@@ -4,7 +4,7 @@ draft: false
 title: "フリー動画編集ソフト avidemux のすゝめ"
 categories: ["software"]
 tags: ["avidemux"]
-aliases: :filename
+aliases: [/avidemux-recommendation/]
 ---
 
 Davinci Resolve とか Aviutl とか、フリーでも高機能な動画編集ソフトはあるけど、メインの動画投稿先が Twitter の人にとってはそんなすごいのはいらない感がある。 (くだらん動画のためにいちいちプロジェクト作成するとか面倒臭すぎる)

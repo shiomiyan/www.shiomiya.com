@@ -9,6 +9,7 @@ tags:
   - vim
   - macos
   - shell
+aliases: [/organized-cui-environment-in-2020/]
 
 ---
 

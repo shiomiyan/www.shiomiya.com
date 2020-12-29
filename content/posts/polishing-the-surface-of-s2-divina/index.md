@@ -4,6 +4,7 @@ draft: false
 title: "S2 DIVINA のコーティング削り"
 categories: ["random"]
 tags: ["mouse"]
+aliases: [/polishing-the-surface-of-s2-divina/]
 ---
 
 ![](20200226065718.jpg)

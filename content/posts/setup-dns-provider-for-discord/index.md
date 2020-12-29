@@ -7,6 +7,7 @@ author: shiomiya
 categories: game
 tags:
   - discord
+aliases: [/setup-dns-provider-for-discord/]
 
 ---
 

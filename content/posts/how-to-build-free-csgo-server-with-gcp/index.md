@@ -5,6 +5,7 @@ draft: false
 author: "shiomiya"
 categories: ["game"]
 tags: ["csgo"]
+aliases: [/how-to-build-free-csgo-server-with-gcp/]
 ---
 
 GCP の無料枠を利用して CSGO のサーバーを建てる方法。
