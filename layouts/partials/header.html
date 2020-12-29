@@ -18,10 +18,14 @@
 <meta name="robots" content="noindex" />
 {{ end }}
 
-{{ $style := resources.Get "scss/style.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink | relURL }}"/>
-{{ $custom := resources.Get "scss/custom.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $custom.Permalink | relURL }}">
+{{- $inServerMode := .Site.IsServer }}
+{{- $cssTarget    := "css/style.css" }}
+{{- $cssOptions   := cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
+{{- $style        := resources.Get "scss/main.scss" | toCSS $cssOptions | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}"/>
+{{ range .Site.Params.css -}}
+<link rel="stylesheet" href="{{ . | relURL }}">
+{{ end -}}
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
