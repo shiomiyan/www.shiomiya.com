@@ -17,15 +17,11 @@ copyrightYear = 2019
 # Go Reference time: Mon Jan 2 15:04:05 MST 2006
 dateFormat = "Jan 2, 2006 3:04PM"
 
-[params.assets]
-customCSS = ["css/custom.css"]
-
 [params.info]
 enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "umilog" # Title for home page
 poweredby = false # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
-codeCopy = false # Add copy button above code blocks
 taxonomiesCount = true # Add taxonomies count
 
 [params.social]
