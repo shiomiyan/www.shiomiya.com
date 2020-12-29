@@ -150,10 +150,6 @@ Revision Post-Install を参考にインストール。 Method1 が楽なので�
 
 ---
 
-参考
-
-<a href="https://sites.google.com/view/meetrevision/revios/post-install">https://sites.google.com/view/meetrevision/revios/post-install</a>
-
-<a href="https://sites.google.com/view/winshit/guides">https://sites.google.com/view/winshit/guides</a>
-
-<a href="https://docs.google.com/document/d/1_DwK2rn-nqox7cnbHfL7AzUjckUyvAIBzkTRFFLD3NQ">https://docs.google.com/document/d/1_DwK2rn-nqox7cnbHfL7AzUjckUyvAIBzkTRFFLD3NQ</a>
+- https://sites.google.com/view/meetrevision/revios/post-install
+- https://sites.google.com/view/winshit/guides
+- https://docs.google.com/document/d/1_DwK2rn-nqox7cnbHfL7AzUjckUyvAIBzkTRFFLD3NQ
