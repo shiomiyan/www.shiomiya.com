@@ -9,6 +9,7 @@ tags:
   - netlify
   - vercel
   - hugo
+adsenseBottom: true
 
 ---
 
