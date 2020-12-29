@@ -52,5 +52,8 @@
     </nav>
 
   </div>
-  <script src="/js/navicon-shift.js"></script>
+  {{ $opts := dict "minified" true }}
+  {{ $typescript := resources.Get "scripts/navicon-shift.ts" | babel $opts }}
+  {{ $javascript := slice $typescript | resources.Concat "scripts/navicon-shift.js" }}
+  <script src="{{ $javascript.RelPermalink }}"></script>
 </section>
