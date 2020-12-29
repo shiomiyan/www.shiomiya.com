@@ -9,18 +9,15 @@
     </div>
     {{if not .Date.IsZero }}<h2 class="subtitle is-6">{{ .Date.Format "January 2, 2006" }}</h2>{{ end }}
     <h1 class="title">{{ .Title }}</h1>
-    {{ if .Params.adsenseTop }}
-    {{ partial "adsense" . }}
-    {{ end }}
     <div class="content">
       {{ .Content }}
       {{ if .Site.Params.Info.related }}
       <div class="related">{{ partial "related" . }}</div>
       {{ end }}
     </div>
-    {{ if .Params.adsenseBottom }}
+    {{ if not .Params.disableAds }}
     {{ partial "adsense" . }}
-    {{ end}}
+    {{ end }}
   </div>
 </section>
 {{ partial "footer" . }}

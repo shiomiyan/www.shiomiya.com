@@ -3,6 +3,7 @@ title: "About"
 caption: "このサイトと私について"
 hidden: true
 noindex: true
+disableAds: true
 ---
 
 デバイス、ガジェット、 PC 設定、 PC ゲームに関することを中心に記事を書きます。 Vimmer です。
