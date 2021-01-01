@@ -15,6 +15,7 @@
       <div class="related">{{ partial "related" . }}</div>
       {{ end }}
     </div>
+    {{ partial "share" . }}
     {{ if not .Params.disableAds }}
     {{ partial "adsense" . }}
     {{ end }}

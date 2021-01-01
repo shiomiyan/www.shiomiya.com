@@ -31,7 +31,7 @@ rss = "index.xml" # Add this to show RSS button in social.
 [params.social.config]
 platforms = ["github","rss"]
 
-[params.sections_right]
+[params.sections_left]
 "/about" = "about"
 "/categories" = "categories"
 
