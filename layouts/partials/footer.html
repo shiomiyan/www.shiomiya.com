@@ -4,7 +4,7 @@
     <p>{{ .Site.Copyright | safeHTML }}</p>
   </div>
 </section>
-{{ if .Site.GoogleAnalytics }}
+{{ if not .Site.IsServer }}
 {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
 </body>
