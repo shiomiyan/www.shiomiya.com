@@ -163,5 +163,5 @@ required 以外はアンチェックしてインストール。
 あとこれも
 
 - https://www.shiomiya.com/caps-to-ctrl/
----
+
 [^1]: Nvidia GPU Driver を最適化するツール。
