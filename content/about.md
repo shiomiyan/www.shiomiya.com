@@ -2,7 +2,6 @@
 title: "About"
 caption: "このサイトと私について"
 hidden: true
-noindex: true
 disableAds: true
 ---
 
@@ -27,4 +26,14 @@ disableAds: true
 - 16GMRAM
 - 500GBSSD
 
-![](/img/about/macos.png#c)
+```
+❯ pfetch
+       .:'      sk@mbp-sk.local
+    _ :'_       os     macOS Catalina 10.15.7
+ .'`_`-'_``.    host   MacBookPro15,4
+:________.-'    kernel 19.6.0
+:_______:       uptime 6d 9h 46m
+ :_______`-;    pkgs   234
+  `._.-._.'     memory 8186M / 16384M
+```
+
