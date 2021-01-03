@@ -1,5 +1,5 @@
 name: reviewdog
-on: [pull_request]
+on: pull_request
 jobs:
   textlint:
     name: runner / textlint
@@ -16,7 +16,6 @@ jobs:
       - name: textlint-github-pr-review
         uses: tsuyoshicho/action-textlint@v2
         with:
-          github_token: ${{ secrets.github_token }}
-          level: warning
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
           textlint_flags: "content/**/*.md"
