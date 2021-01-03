@@ -6,5 +6,12 @@
       }
     },
     "spellcheck-tech-word": true
+  },
+  "filters": {
+    "allowlist": {
+      "allow": [
+          "/\{\{\< [\\s\\S]*? \>\}\}/m",
+        ]
+    }
   }
 }

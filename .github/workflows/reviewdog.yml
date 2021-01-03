@@ -1,63 +1,22 @@
 name: reviewdog
-on:
-  push:
-    branches:
-      - master
-  pull_request:
+on: push
 jobs:
-  shellcheck:
-    name: runner / shellcheck
+  textlint:
+    name: runner / textlint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: haya14busa/action-cond@v1
-        id: reporter
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
-          cond: ${{ github.event_name == 'pull_request' }}
-          if_true: "github-pr-review"
-          if_false: "github-check"
-      - uses: reviewdog/action-shellcheck@v1
+          submodules: true
+      - name: Setup node/npm
+        uses: actions/setup-node@v1
         with:
-          github_token: ${{ secrets.github_token }}
-          reporter: ${{ steps.reporter.outputs.value }}
-          level: warning
-
-  hadolint:
-    name: runner / hadolint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: haya14busa/action-cond@v1
-        id: reporter
-        with:
-          cond: ${{ github.event_name == 'pull_request' }}
-          if_true: "github-pr-review"
-          if_false: "github-check"
-      - uses: reviewdog/action-hadolint@v1
+          node-version: '15'
+      - name: textlint-github-pr-review
+        uses: tsuyoshicho/action-textlint@v2
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: ${{ steps.reporter.outputs.value }}
           level: warning
-
-  misspell:
-    name: runner / misspell
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: reviewdog/action-misspell@v1
-        with:
-          github_token: ${{ secrets.github_token }}
-          reporter: github-check
-          level: warning
-          locale: "US"
-
-  alex:
-    name: runner / alex
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: reviewdog/action-alex@v1
-        with:
-          github_token: ${{ secrets.github_token }}
-          reporter: github-check
-          level: warning
+          reporter: github-pr-review
+          textlint_flags: "content/**/*.md"
