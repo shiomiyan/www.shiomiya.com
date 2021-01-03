@@ -1,11 +1,4 @@
 {
-  "filters": {
-    "allowlist": {
-      "allow": [
-        "/^{{%[\\s\\S]*?%}}/m,
-      ]
-    }
-  },
   "rules": {
     "preset-ja-spacing": {
       "ja-space-between-half-and-full-width": {

@@ -16,11 +16,7 @@
   },
   "homepage": "https://github.com/shiomiyan/www.shiomiya.com#readme",
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-typescript": "^7.12.7",
-    "textlint": "^11.7.6",
-    "textlint-filter-rule-allowlist": "^2.0.1",
+    "textlint": "^11.7.7",
     "textlint-rule-preset-ja-spacing": "^2.0.2",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   }
