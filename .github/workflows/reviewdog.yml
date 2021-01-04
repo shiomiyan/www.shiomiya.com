@@ -1,5 +1,5 @@
 name: reviewdog
-on: push
+on: [pull_request]
 jobs:
   textlint:
     name: runner / textlint
@@ -13,10 +13,21 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '15'
+      - name: textlint-github-pr-check
+        uses: tsuyoshicho/action-textlint@v2
+        with:
+          github_token: ${{ secrets.REVIEWDOG_SECRET_TOKEN }}
+          reporter: github-pr-check
+          textlint_flags: "content/**/*.md"
+      - name: textlint-github-check
+        uses: tsuyoshicho/action-textlint@v2
+        with:
+          github_token: ${{ secrets.REVIEWDOG_SECRET_TOKEN }}
+          reporter: github-check
+          textlint_flags: "content/**/*.md"
       - name: textlint-github-pr-review
         uses: tsuyoshicho/action-textlint@v2
         with:
-          github_token: ${{ secrets.github_token }}
-          level: warning
+          github_token: ${{ secrets.REVIEWDOG_SECRET_TOKEN }}
           reporter: github-pr-review
           textlint_flags: "content/**/*.md"
