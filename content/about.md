@@ -5,9 +5,9 @@ hidden: true
 disableAds: true
 ---
 
-デバイス、ガジェット、 PC 設定、 PC ゲームに関することを中心に記事を書きます。 Vimmer です。
+Tech, Games and Gadgets
 
-## PC スペック
+## PC Specs
 
 ### Desktop PC
 

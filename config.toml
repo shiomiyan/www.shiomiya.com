@@ -16,6 +16,8 @@ pygmentsCodefences = true
 copyrightYear = 2019
 # Go Reference time: Mon Jan 2 15:04:05 MST 2006
 dateFormat = "Jan 2, 2006 3:04PM"
+author = "shiomiya"
+description = "Tech, Games and Gadgets"
 
 [params.info]
 enableSocial = true # Adds OpenGraph and Twitter cards
