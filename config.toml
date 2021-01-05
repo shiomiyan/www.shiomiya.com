@@ -19,6 +19,7 @@ dateFormat = "Jan 2, 2006 3:04PM"
 author = "shiomiya"
 images = ["img/ogp.png"]
 
+
 [params.info]
 enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = ".umirc" # Title for home page
