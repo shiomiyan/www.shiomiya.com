@@ -69,9 +69,9 @@ https://console.cloud.google.com/compute/instances
 
 ### IP アドレスの設定
 
-作成した VM インスタンスのネットワークインターフェースの詳細を表示。
+作成した VM インスタンスのネットワークインタフェースの詳細を表示。
 
-ネットワークインターフェースの詳細にあるプライマリ内部 IP をメモしておく。
+ネットワークインタフェースの詳細にあるプライマリ内部 IP をメモしておく。
 
 ![](2020-12-20_21-22_chrome.png)
 
@@ -103,7 +103,7 @@ https://console.cloud.google.com/compute/instances
 
 ![](2020-12-20_22-01_chrome.png)
 
-ターミナル画面に以下をコピペして実行(Enter)。そこそこ時間がかかる。
+ターミナル画面に以下をコピー&ペーストして実行(Enter)。そこそこ時間がかかる。
 
 ```sh
 sudo -- sh -c 'dpkg --add-architecture i386; add-apt-repository multiverse; apt-get update; apt-get -y dist-upgrade'
