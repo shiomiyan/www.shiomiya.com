@@ -1,4 +1,4 @@
-<meta name='twitter:card' content='summary{{- if .Params.image -}}_large_image{{- end -}}'>
+<meta name='twitter:card' content='summary{{- if .Params.images -}}_large_image{{- end -}}'>
 {{- if .Site.Params.opengraph.twitter.page -}}
   <meta name='twitter:site' content='@{{- .Site.Params.opengraph.twitter.page -}}'>
 {{- else -}}
@@ -6,5 +6,5 @@
 {{- end -}}
 <meta name='twitter:creator' content='@{{- .Site.Params.Social.twitter -}}'>
 {{- with .Site.Params.images -}}
-  <meta name="twitter:image" content="{{ . | absURL }}"/>
+  <meta name="twitter:image" content="https://www.shiomiya.com/img/ogp.png"/>
 {{- end -}}

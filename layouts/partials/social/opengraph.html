@@ -10,14 +10,9 @@
   {{- end -}}
 '>
 
-{{- with .Params.image -}}
-    <meta property='og:image' content='{{ . | absURL }}'>
+{{- with .Params.images -}}
+    <meta property='og:image' content='https://www.shiomiya.com/img/ogp.png'>
 {{- else -}}
-{{- with .Site.Params.Social.email -}}
-    <meta property='og:image' content='https://www.gravatar.com/avatar/
-        {{- . | md5 -}}
-        ?s=256'>
-{{- end -}}
 
 {{- with .Params.audios -}}
   {{- range first 6 . -}}
