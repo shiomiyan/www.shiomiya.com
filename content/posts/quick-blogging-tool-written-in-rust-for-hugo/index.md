@@ -73,7 +73,7 @@ Command::new("hugo")
 
 ## ブランチのチェックアウト
 
-Rust から git リポジトリを操作するには [`git2`](https://github.com/rust-lang/git2-rs) が便利そう。
+Rust から Git リポジトリを操作するには [`git2`](https://github.com/rust-lang/git2-rs) が便利そう。
 
 カレントディレクトリのリポジトリを読み取って `head` から記事名のブランチを作成している。
 
@@ -112,4 +112,3 @@ fn git_checkout(title: &str) -> Result<()> {
 結果として `hn <article-name>` を実行するだけでブランチを切って記事を生成してくれるようになった。
 
 これだけでもそれなりに楽になった気はしているが、このレベルならシェルスクリプトで十分と言われてしまいそうなので、もう少しリッチな機能を付け足したい。
-
