@@ -13,7 +13,7 @@ tags:
 
 記事作成時に一緒にブランチを切ってくれる CLI ツールを Rust で書いてみた。
 
-{{< github "shiomiyan/hn" >}}
+[shiomiyan/hn](https://github.com/shiomiyan/hn)
 
 ## 背景とか
 
