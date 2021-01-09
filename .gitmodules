@@ -1,0 +1,3 @@
+[submodule ".\\tools\\hn"]
+	path = .\\tools\\hn
+	url = git@github.com:shiomiyan/hn.git
