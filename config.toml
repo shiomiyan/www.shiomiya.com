@@ -29,14 +29,11 @@ taxonomiesCount = true # Add taxonomies count
 
 [params.social]
 github = "shiomiyan"
-rss = "index.xml" # Add this to show RSS button in social.
+rss = "index.xml"
+about = "about"
 
 [params.social.config]
-platforms = ["github","rss"]
-
-[params.sections_left]
-"/about" = "about"
-"/categories" = "categories"
+platforms = ["github","about","rss"]
 
 [taxonomies]
 tag ="tags"
