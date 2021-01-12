@@ -1,7 +1,6 @@
 baseurl = "https://www.shiomiya.com"
 languageCode = "ja-jp"
 title = ".umirc"
-copyright = "&copy; shiomiya 2019"
 googleAnalytics = "UA-139120340-2"
 Paginate = 10 # Number of posts per page
 enableRobotsTXT = true
@@ -13,7 +12,6 @@ pygmentsUseClasses = true
 pygmentsCodefences = true
 
 [params]
-copyrightYear = 2019
 # Go Reference time: Mon Jan 2 15:04:05 MST 2006
 dateFormat = "Jan 2, 2006 3:04PM"
 author = "shiomiya"
@@ -24,7 +22,7 @@ enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = ".umirc" # Title for home page
 description = "Tech, Games and Gadgets"
 poweredby = false # Adds powered by hugo and kiss below Copyright
-related = false # Includes related articles at the bottom of the article
+related = true # Includes related articles at the bottom of the article
 taxonomiesCount = true # Add taxonomies count
 
 [params.social]

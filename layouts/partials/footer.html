@@ -1,7 +1,9 @@
-
 <section class="section">
   <div class="container has-text-centered">
-    <p>{{ .Site.Copyright | safeHTML }}</p>
+    <span>
+      <p>&copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time> shiomiya</p>
+      {{ i18n "generator" | safeHTML }}
+    </span>
   </div>
 </section>
 {{ if not .Site.IsServer }}

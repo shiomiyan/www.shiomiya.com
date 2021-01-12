@@ -1,8 +1,4 @@
-/* Background */
-
 .chroma {
-  .x {}
-
   .err {
     color: #a61717;
     background-color: #e3d2d2;
@@ -47,8 +43,6 @@
     font-weight: bold;
   }
 
-  .n {}
-
   .na {
     color: #008080;
   }
@@ -84,8 +78,6 @@
     font-weight: bold;
   }
 
-  .fm {}
-
   .nl {
     color: #990000;
     font-weight: bold;
@@ -95,8 +87,6 @@
     color: #555555;
   }
 
-  .nx, .py {}
-
   .nt {
     color: #000080;
   }
@@ -104,8 +94,6 @@
   .nv, .vc, .vg, .vi {
     color: #008080;
   }
-
-  .vm, .l, .ld {}
 
   .s, .sa, .sb, .sc, .dl, .sd, .s2, .se, .sh, .si, .sx {
     color: #dd1144;
@@ -132,8 +120,6 @@
     font-weight: bold;
   }
 
-  .p {}
-
   .c, .ch, .cm, .c1 {
     color: #999988;
     font-style: italic;
@@ -144,8 +130,6 @@
     font-weight: bold;
     font-style: italic;
   }
-
-  .g {}
 
   .gd {
     color: #000000;
@@ -198,4 +182,3 @@
     color: #bbbbbb;
   }
 }
-
