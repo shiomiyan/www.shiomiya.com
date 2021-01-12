@@ -14,11 +14,16 @@
       {{ if .Site.Params.Info.related }}
       <div class="related">{{ partial "related" . }}</div>
       {{ end }}
+      {{ partial "share" . }}
     </div>
-    {{ partial "share" . }}
-    {{ if not .Params.disableAds }}
-    {{ partial "adsense" . }}
-    {{ end }}
+    <div>
+      {{ partial "comment" . }}
+    </div>
+    <div>
+      {{ if not .Params.disableAds }}
+      {{ partial "adsense" . }}
+      {{ end }}
+    </div>
   </div>
 </section>
 {{ partial "footer" . }}
