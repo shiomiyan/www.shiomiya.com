@@ -11,9 +11,9 @@ tags:
 
 ---
 
-記事作成時に一緒にブランチを切ってくれる CLI ツールを Rust で書いてみた。
+Hugo での記事作成時に一緒にブランチを切ってくれる CLI ツールを Rust で書いてみた。
 
-[shiomiyan/hn](https://github.com/shiomiyan/hn)
+[shiomiyan/rugo - GitHub](https://github.com/shiomiyan/rugo)
 
 ## 背景とか
 
@@ -23,7 +23,7 @@ Hugo でブログを書く際、以下のようなワークフローで記事を
 2. Vim で編集
 3. `master` へ Push
 
-しかし、 `new` の際にパスを間違えたり、reviewdog で校正を行うために記事ごとに PR を作成したいなんて事があって、そのへんを楽にする CLI ツールが欲しかった。
+しかし、 `new` の際にパスを間違えたり、reviewdog で校正を行うために記事ごとに PR を作成したいなんて事があって、その辺を楽にする CLI ツールが欲しかった。
 
 ## コマンドライン解析
 
@@ -32,40 +32,41 @@ Rust でコマンドライン解析を行う crate はいくつかあるが、�
 直線的にオプションやサブコマンドを設置できるので、慣れていなくても書きやすかった。
 
 ```rust
-let matches = App::new("hugo-new")
-        .version("1.0")
-        .about("Make faster your blogging.")
-        .author("Created by shiomiya.")
-        .arg(
-            Arg::new("INPUT")
-                .about("input post title")
-                .takes_value(true)
-                .required(true),
-        )
-        .arg(
-            Arg::new("edit")
-                .about("open with Vim")
-                .long("edit")
-                .short('e'),
-        )
-        .get_matches();
+let matches = App::new("rugo")
+    .version("0.1")
+    .about("Make faster your blogging.")
+    .author("Created by shiomiya.")
+    .subcommand(
+        App::new("new")
+            .about("create new post with git branching")
+            .arg(
+                Arg::new("TITLE")
+                    .about("input post title")
+                    .takes_value(true)
+                    .required(true),
+            ),
+    )
+    .get_matches();
 
     // 引数に対する処理を記述していく
-    if let Some(title) = matches.value_of("INPUT") {
-        git_checkout(title).unwrap_or_else(|e| panic!("Error: failed to checkout branch {}.", e));
-        create_post(title).unwrap_or_else(|e| panic!("Error: failed to create new post {}.", e));
-        ...
-    }
+if let Some(ref matches) = matches.subcommand_matches("new") {
+    let title = matches.value_of("TITLE").unwrap();
+    git_checkout(title).unwrap_or_else(|e| panic!("Error: failed to checkout branch {}.", e));
+    create_post(title).unwrap_or_else(|e| panic!("Error: failed to create new post {}.", e));
+    ...
+}
 ```
 
 ## Hugo を呼ぶ
+
+Rust では [`std::process::Command`](https://doc.rust-lang.org/std/process/struct.Command.html) を使ってシェルコマンドを呼び出すプロセスを生成できる。
 
 `hugo new` を叩いたときの標準出力が邪魔だったので `/dev/null` へ飛ばした。
 
 ```rust
 Command::new("hugo")
         .arg("new")
-        .arg(cmdargs)
+        .arg(path)
         .stdout(Stdio::null())
         .spawn()
         .expect("Can't run command `hugo new`");
@@ -109,6 +110,4 @@ fn git_checkout(title: &str) -> Result<()> {
 
 ## 終わりに
 
-結果として `hn <article-name>` を実行するだけでブランチを切って記事を生成してくれるようになった。
-
-これだけでもそれなりに楽になった気はしているが、このレベルならシェルスクリプトで十分と言われてしまいそうなので、もう少しリッチな機能を付け足したい。
+シェルスクリプトで十分感は否めない。
