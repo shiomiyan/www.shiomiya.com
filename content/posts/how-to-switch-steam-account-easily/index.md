@@ -5,7 +5,6 @@ title: "Steam アカウントをワンクリックで切り替える"
 categories: ["software"]
 tags: ["steam"]
 author: "shiomiya"
-aliases: [/how-to-switch-steam-account-easily/]
 ---
 
 便利だったので紹介

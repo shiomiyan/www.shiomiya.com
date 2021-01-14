@@ -6,7 +6,6 @@ draft: false
 author: "shiomiya"
 categories: ["random"]
 tags: ["1password","bitwarden"]
-aliases: [/switched-my-password-manager-from-1password-to-bitwarden/]
 ---
 
 3 年間使い続けた 1password を解約して Bitwarden に乗り換えた。

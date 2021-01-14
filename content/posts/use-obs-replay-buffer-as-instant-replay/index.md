@@ -4,7 +4,6 @@ draft: false
 title: "OBS Replay Buffer を instant replay のように使う"
 categories: ["software"]
 tags: ["obs","instant replay"]
-aliases: [/use-obs-replay-buffer-as-instant-replay/]
 ---
 
 OBS Replay Buffer を Geforce Experience の instant replay のように使う方法。

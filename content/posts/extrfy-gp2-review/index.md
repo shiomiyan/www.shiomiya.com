@@ -4,7 +4,6 @@ draft: false
 title: "Xtrfy GP2 レビュー"
 categories: ["review"]
 tags: ["mousepad"]
-aliases: [/extrfy-gp2-review/]
 ---
 
 ![](20200524204432.jpg)
