@@ -12,13 +12,17 @@
     {{ range sort .Paginator.Pages }}
     <article>
       <div class="subtitle tags is-6 is-pulled-right">
-        {{ if .Params.tags }}
-        {{ partial "tags" .Params.tags }}
+        {{ if .Params.categories }}
+        {{ partial "categories" .Params.categories }}
         {{ end }}
       </div>
+      <h1 class="title">
+        <a href="{{ .Permalink }}">
+          {{ .Title }}{{ partial "taxonomies_count" . }}
+          {{ if .Draft }}::Draft{{ end }}
+        </a>
+      </h1>
       <h2 class="subtitle is-6 date">{{ .Date.Format "January 2, 2006" }}</h2>
-      <h1 class="title"><a href="{{ .Permalink }}">{{ .Title }}{{ partial "taxonomies_count" . }}</a>{{ if .Draft }}
-        ::Draft{{ end }}</h1>
     </article>
     {{ end }}
   </div>

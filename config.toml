@@ -21,17 +21,15 @@ images = ["img/ogp.png"]
 enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = ".umirc" # Title for home page
 description = "Tech, Games and Gadgets"
-poweredby = false # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
 taxonomiesCount = true # Add taxonomies count
 
 [params.social]
 github = "shiomiyan"
 rss = "index.xml"
-about = "about"
 
 [params.social.config]
-platforms = ["github","about","rss"]
+platforms = ["rss"]
 
 [taxonomies]
 tag ="tags"

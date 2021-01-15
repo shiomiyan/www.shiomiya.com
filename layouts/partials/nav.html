@@ -8,6 +8,16 @@
       </div>
       <div class="nav-right">
         <nav id="nav-items" class="nav-item level is-mobile">
+          <a class="level-item" aria-label="category" href='/categories' rel='noopener'>
+            <span class="icon">
+              <i class>{{- partial "svg/icons" "category" -}}</i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="tags" href='/tags' rel='noopener'>
+            <span class="icon">
+              <i class>{{- partial "svg/icons" "tag" -}}</i>
+            </span>
+          </a>
           {{- $social := ( .Site.Params.social ) -}}
           {{- range $platform := $social.config.platforms -}}
           {{- with $username := ( index $social $platform ) -}}

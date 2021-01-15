@@ -659,6 +659,10 @@ table {
       font-size: 14px;
     }
   }
+
+  &.is-list {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 769px) {
