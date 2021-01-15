@@ -2,7 +2,7 @@
 date: "2020-12-10 23:42:29 +0000 UTC"
 draft: false
 title: "Kovaak の設定ファイルの保存場所"
-categories: ["game"]
+categories: game
 tags: ["kovaak"]
 ---
 
