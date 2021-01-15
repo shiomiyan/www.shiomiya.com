@@ -5,7 +5,6 @@ author: "shiomiya"
 title: "CapsLock を Ctrl として機能させる (Windows10)"
 tags: ["windows10","memo"]
 categories: ["tweak"]
-aliases: [/caps-to-ctrl/]
 ---
 
 毎回毎回調べていて面倒だったのでメモ。

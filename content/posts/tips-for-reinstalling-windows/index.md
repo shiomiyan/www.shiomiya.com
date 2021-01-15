@@ -5,7 +5,6 @@ title: "Windows の再インストール後にやることメモ"
 tags: ["windows10"]
 categories: ["tweak"]
 draft: false
-aliases: [/tips-for-reinstalling-windows/]
 ---
 
 OS クリーンインストールを頻繁にやるようになったので毎回やってることを書き留めておく。

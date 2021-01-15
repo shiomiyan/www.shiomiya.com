@@ -9,7 +9,6 @@ tags:
   - netlify
   - vercel
   - hugo
-aliases: [/changed-static-blog-hosting-service-from-netlify-to-vercel/]
 
 ---
 
