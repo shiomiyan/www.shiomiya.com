@@ -1,6 +1,6 @@
 ---
 title: "About"
-caption: "このサイトと私について"
+caption: "このサイトについて"
 hidden: true
 disableAds: true
 ---
