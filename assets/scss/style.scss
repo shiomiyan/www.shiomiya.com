@@ -234,7 +234,7 @@ html {
 }
 
 body, button, input {
-  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 
 code, pre {
@@ -432,8 +432,8 @@ table {
   }
 
   h1, h2, h3, h4 {
-    color: #b52323;
-    font-weight: 300;
+    color: #222324;
+    font-weight: 600;
     margin-bottom: 20px;
   }
 
@@ -601,12 +601,12 @@ table {
 }
 
 .subtitle, .title {
-  font-weight: 300;
+  font-weight: 600;
   word-break: break-word;
 }
 
 .subtitle span, .title span {
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .subtitle a:hover, .title a:hover {
@@ -614,7 +614,7 @@ table {
 }
 
 .subtitle strong, .title strong {
-  font-weight: 500;
+  font-weight: 650;
 }
 
 .subtitle .tag, .title .tag {
@@ -661,7 +661,7 @@ table {
   }
 
   &.is-list {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -686,7 +686,7 @@ table {
   }
 
   + .title {
-    margin-top: -20px;
+    margin-top: 0px;
   }
 
   &.is-4 {
@@ -707,6 +707,7 @@ table {
 
   &.tags, &.date {
     line-height: 1.5em;
+    font-size: 12px;
   }
 }
 
@@ -1074,7 +1075,11 @@ a.nav-item {
 
 .section {
   background-color: #fff;
-  padding: 40px 20px;
+  padding: 20px 20px;
+
+  &.is-cc {
+    font-size: 12px;
+  }
 }
 
 code, html {
@@ -1088,12 +1093,13 @@ code, html {
 
 .content {
   h1:not(:first-child), h2:not(:first-child), h3:not(:first-child), h4:not(:first-child) {
-    margin-top: 80px;
+    margin-top: 24px;
+    margin-bottom: 16px;
   }
 }
 
 article + article {
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .content {
@@ -1122,7 +1128,7 @@ article + article {
 }
 
 .title {
-  font-size: 24px;
+  font-size: 32px;
 
   a {
     color: #222324;
