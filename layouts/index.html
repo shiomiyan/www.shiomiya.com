@@ -16,7 +16,7 @@
         {{ partial "categories" .Params.categories }}
         {{ end }}
       </div>
-      <h1 class="title">
+      <h1 class="title is-list">
         <a href="{{ .Permalink }}">
           {{ .Title }}{{ partial "taxonomies_count" . }}
           {{ if .Draft }}::Draft{{ end }}
