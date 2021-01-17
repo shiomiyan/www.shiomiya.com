@@ -40,7 +40,7 @@ a, input[type="checkbox"] {
   vertical-align: baseline;
 }
 
-a:hover, strong, table th {
+strong, table th {
   color: #222324;
 }
 
@@ -402,13 +402,15 @@ table {
 
 .content {
   a:not(.button) {
-    border-bottom: 1px solid #d3d6db;
-
+    // border-bottom: 1px solid #d3d6db;
+    /**
     &:visited {
       color: #847bb9;
     }
+    */
 
     &:hover {
+      text-decoration: underline;
       border-bottom-color: #2077b2;
     }
   }
@@ -1160,10 +1162,14 @@ code {
 
   h1 {
     font-size: 24px;
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eaecef;
   }
 
   h2 {
     font-size: 22px;
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eaecef;
   }
 
   h3 {
