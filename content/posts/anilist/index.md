@@ -1,5 +1,5 @@
 ---
-title: アニメ好きにおすすめなツール『 Anilist.co 』
+title: アニメ好きにおすすめなツール『Anilist.co』
 date: 2021-01-19T15:24:10+09:00
 description: アニメ・漫画好きにおすすめしたい anilist という Web サイトの紹介。
 draft: false
@@ -10,7 +10,7 @@ tags:
 
 ---
 
-普段 Amazon prime video や Netflix で大量にアニメを見る人におすすめなツール『 Anilist.co 』の紹介。
+普段 Amazon prime video や Netflix で大量にアニメを見る人におすすめなツール『Anilist.co』の紹介。
 
 あまりメジャーでないのか、記事が殆どなかったので記録がてらに書きます。
 
@@ -48,7 +48,7 @@ tags:
 
 {{< blogcard "https://yellowfish085.github.io/al-search/" >}}
 
-例えば自分の場合、 「 Amazon prime video や Netflix でアニメを見つけて、見つけたアニメを Anilist へ登録したい」というユースケースなので、この拡張を入れておくとタイトルを選択して右クリックするとメニューから即座に Anilist で検索できる。
+例えば自分の場合、「Amazon prime video や Netflix でアニメを見つけて、見つけたアニメを Anilist へ登録したい」というユースケースなので、この拡張を入れておくとタイトルを選択して右クリックするとメニューから即座に Anilist で検索できる。
 
 ## 視聴状況を確認・編集する
 
