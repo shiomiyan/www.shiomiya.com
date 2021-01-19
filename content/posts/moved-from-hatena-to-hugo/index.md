@@ -17,13 +17,13 @@ tags: ["hugo"]
 
 Github pages でも Actions を使って同じようなことはできるけど、こっちのほうが楽そうだったので Netlify にした。
 
-## 移行プロセス
+## 移行
 
 - はてブロ記事エクスポート
 - Hugo でブログ生成、Github へ push して Netlify へデプロイ
 - テーマとかその他微調整
 
-## はてなブログの記事を移行
+### はてなブログの記事を移行
 
 移行について調べていたらスクリプトを書いている人を見つけて、せっかくなので使わせてもらった。
 
@@ -31,24 +31,25 @@ Github pages でも Actions を使って同じようなことはできるけど�
 
 その後、一応元記事にリダイレクトを設定して終わり。
 
-`content`配下のディレクトリとファイル構成は、`posts/<article-name>/index.md`となるようにした。画像を挿入するときに参照が楽なのと、記事ごとにコンテンツを管理できる気がしてよい。
+### Hugo 周り
+
+テーマは [ribice/kiss](https://github.com/ribice/kiss) をベースにパッチを当てて使っている。
+
+デザインとかレイアウトが微妙に気に入らないときにササッと修正できるのもまたいいところである。
+
+`content` 配下のディレクトリとファイル構成は、 `posts/<article-name>/index.md` となるようにした。画像を挿入するときに参照が楽なのと、記事ごとにコンテンツを管理できる気がしてよい。
 
 ```
 .
-├── _index.html
 ├── about.md
 └── posts
-   ├── avidemux-recommendation
+   ├── article1
    │  ├── image1.png
    │  ├── image2.png
    │  └── index.md
-   ├── dreammachines-dm1fps-review
-   │  ├── 20200217231755.jpg
-   │  ├── 20200217231806.jpg
-   │  ├── 20200217231816.jpg
-   │  ├── 20200217231826.jpg
+   ├── article2
    │  └── index.md
-   ├── extrfy-gp2-review
+   ├── article3
 ...
 ```
 
@@ -56,9 +57,7 @@ Github pages でも Actions を使って同じようなことはできるけど�
 
 ![](Lighthouse-Report.png)
 
-Lighthouse の SEO を除く全てのスコアで 100 付近をマークした(テーマが優秀なのかもしれない)。
-
-SEO に関しては自分の記事の書き方(記事名・カテゴリ・タグ等)に依存してる気がするのでうまい書き方がわかるまではこの辺がいいところだろうか。
+Lighthouse の SEO を除く全てのスコアで 100 付近をマークした (テーマが優秀なのかもしれない)。
 
 あと、単純な表示速度と記事を書くときのレスポンスは期待通り良くなった。
 
