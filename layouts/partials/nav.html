@@ -18,6 +18,11 @@
               <i class>{{- partial "svg/icons" "tag" -}}</i>
             </span>
           </a>
+          <a class="level-item" aria-label="about" href='/about' rel='noopener'>
+            <span class="icon">
+              <i class>{{- partial "svg/icons" "about" -}}</i>
+            </span>
+          </a>
           {{- $social := ( .Site.Params.social ) -}}
           {{- range $platform := $social.config.platforms -}}
           {{- with $username := ( index $social $platform ) -}}
