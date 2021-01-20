@@ -26,6 +26,7 @@ taxonomiesCount = true # Add taxonomies count
 
 [params.social]
 github = "shiomiyan"
+twitter = "_umirc"
 rss = "index.xml"
 
 [params.social.config]
