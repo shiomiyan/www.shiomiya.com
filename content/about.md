@@ -9,8 +9,7 @@ disableAds: true
 
 ご連絡は Twitter の DM まで。お気軽にどうぞ。
 
-- 技術用アカウント ([@shiomiyan](https://www.twitter.com/shiomiyan))
-- ブログ用アカウント ([@_umirc](https://www.twitter.com/_umirc))
+- [@shiomiyan](https://www.twitter.com/shiomiyan)
 
 ## PC Specs
 
@@ -24,7 +23,7 @@ disableAds: true
 - 20GB RAM
 - 500GB SSD
 
-### Laptop PC :: MacBook Pro 13-inch 2019
+### Laptop PC
 
 - macOS Catalina 10.15.7
 - i5 8257U
