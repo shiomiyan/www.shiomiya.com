@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "textlint 'content/**/*.md'",
+    "fix": "textlint 'content/**/*.md' --fix"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shiomiyan/www.shiomiya.com.git"
