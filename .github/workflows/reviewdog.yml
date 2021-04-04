@@ -1,4 +1,4 @@
-name: reviewdog
+name: textlint
 on:
   push:
     branches:
@@ -15,7 +15,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '15'
-      - name: npm install
         run: npm install
       - name: Fix with textlint
         run: npm run fix
