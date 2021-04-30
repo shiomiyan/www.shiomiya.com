@@ -4,7 +4,7 @@ draft: false
 title: "DREAM MACHINES DM1 FPS レビュー"
 tags: ["mouse"]
 categories: review
-
+hidden: true
 ---
 
 auPay の 20％還元期間だったのでずっと買うか迷ってた DM1 FPS を PC ショップ Ark で買ってきました. 一緒にマウスグリップシールも買って 8,000 円くらい. 因みに 1,600 円くらい還元された.

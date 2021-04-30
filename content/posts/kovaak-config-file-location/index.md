@@ -4,6 +4,7 @@ draft: false
 title: "Kovaak の設定ファイルの保存場所"
 categories: game
 tags: ["kovaak"]
+hidden: true
 ---
 
 PC 初期化にあたって Kovaak の設定を引き継ぎたかったのでメモ｡

@@ -7,7 +7,7 @@ author: shiomiya
 categories: game
 tags:
   - discord
-
+hidden: true
 ---
 
 Discord で相手方の声が頻繁に飛ぶので解決策を模索していたところ、 パブリック DNS を設定したところだいぶ落ち着いたのでご紹介。

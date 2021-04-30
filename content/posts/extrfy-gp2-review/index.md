@@ -4,6 +4,7 @@ draft: false
 title: "Xtrfy GP2 レビュー"
 categories: review
 tags: ["mousepad"]
+hidden: true
 ---
 
 ![](20200524204432.jpg)

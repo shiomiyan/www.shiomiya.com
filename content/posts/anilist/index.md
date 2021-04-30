@@ -7,7 +7,7 @@ author: shiomiya
 categories: random
 tags:
   - anime
-
+hidden: true
 ---
 
 普段 Amazon prime video や Netflix で大量にアニメを見る人におすすめなツール『Anilist.co』の紹介。

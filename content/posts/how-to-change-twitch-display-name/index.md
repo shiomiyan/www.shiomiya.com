@@ -4,6 +4,7 @@ draft: false
 title: "一度設定してしまった Twitch の表示名を消す方法"
 categories: random
 tags: ["twitch"]
+hidden: true
 ---
 
 Twitch のユーザー名・表示名の変更はプロフィール設定から行える。

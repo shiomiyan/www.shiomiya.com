@@ -7,7 +7,7 @@ author: shiomiya
 categories: game
 tags:
   - apex legends
-
+hidden: true
 ---
 
 Apex Legends で普通に 4:3 引き伸ばしを使おうとすると上下に黒帯が出るのでそれを消す方法メモ。
