@@ -1,5 +1,5 @@
 ```
-hugo new posts/<post-name>/index.md
+hugo new posts/<post-name>/index.md --editor vim
 
 or
 
