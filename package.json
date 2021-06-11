@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/shiomiyan/www.shiomiya.com#readme",
   "devDependencies": {
-    "textlint": "^11.9.1",
+    "textlint": "^12.0.0",
     "textlint-filter-rule-allowlist": "^2.0.1",
-    "textlint-rule-preset-ja-spacing": "^2.1.1",
+    "textlint-rule-preset-ja-spacing": "^2.1.3",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   }
 }
