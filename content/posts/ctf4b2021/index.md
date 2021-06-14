@@ -138,7 +138,7 @@ ctf4b{p0werfu1_tr4sing_t0015_15_usefu1} [Inferior 1 (process 390) exited normall
 
 `b4ftc` とかいうスカな感じの文字列を発見しただけで、これは結局解けませんでした。
 
-- とりあえず ghidra に食わせて `not trace me...` している アドレスを探す
+- とりあえず ghidra に食わせて `not trace me...` しているアドレスを探す
 - trace ができるように Vim でバイナリを書き換える
 
 まではできたんですが、あと一歩ができませんでした。
