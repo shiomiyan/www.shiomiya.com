@@ -2,6 +2,7 @@
 title: About
 caption: このサイトについて
 hidden: true
+disableAds: true
 ---
 
 テック・プログラミング・ゲーム・ガジェットなど、ジャンルを問わずに更新。
