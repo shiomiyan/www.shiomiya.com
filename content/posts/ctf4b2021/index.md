@@ -165,7 +165,7 @@ rc4 の key と暗号文がハードコードされているっぽいので、�
 https://osoba.quals.beginners.seccon.jp/?page=public/wip.html
 ```
 
-お、トラバーサルか？と思いましたが、コメント通り `/flag` にありました。
+お、トラバーサルか？ と思いましたが、コメント通り `/flag` にありました。
 
 ![](2021-05-24-23-55-49.png)
 
@@ -205,7 +205,7 @@ def index():
 
 ついでにその手前部分も見ていくと、`/` に `POST` されたタイミングで `Player` インスタンスを生成して、`__dict__` にパラメータ名と value を格納していくという感じでしょうか。で、render のタイミングで `__dict__` から取り出しています。
 
-あれ、`__dict__` なんていたっけ？ということも踏まえて、次に `Player` クラスがどうなっているかを見ていきます。
+あれ、`__dict__` なんていたっけ？ ということも踏まえて、次に `Player` クラスがどうなっているかを見ていきます。
 
 ちょこっとコードを切り出して、`__dict__` が何かをとりあえず確認します。
 
@@ -273,7 +273,7 @@ https://check-url.quals.beginners.seccon.jp/?url=0x7F000001
 
 ### misc
 
-#### git-leak
+#### Git-leak
 
 与えられた README にも書いてあるので、`reflog` します。
 
@@ -319,7 +319,7 @@ $ git cat-file -p a5b6b52f47aba96730ab61471ddcdff864e5dd8c
 100644 blob 62337fdb59ceb048f7da9eaf768923d744930842    note.md
 ```
 
-`flag.txt` がありました～！ので、あとは中身を見て終わりです。
+`flag.txt` がありました～！ ので、あとは中身を見て終わりです。
 
 ```
 $ git cat-file -p 4cbb035d2ff072127b4e22919485127d2273e88e
