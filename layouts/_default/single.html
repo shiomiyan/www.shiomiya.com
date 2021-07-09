@@ -17,10 +17,12 @@
       {{ end }}
       -->
     </div>
-    <hr>
+    <br>
     <div>
+      {{ if not .Params.disableShare }}
       {{ partial "share" . }}
       <!-- {{ partial "comment" . }} -->
+      {{ end }}
     </div>
     <div>
       {{/*
